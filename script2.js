@@ -1500,7 +1500,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Big Hero 6 Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Big%20Hero%206.html",
+          href: "https://matheonyx.github.io/Nesdy/Big%20Hero%206",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/28E7988A1691861933024190FFF9EE73C340D3700AD6536E8215454365A7A5FF/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
