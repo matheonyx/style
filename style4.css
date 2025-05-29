@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Loupe à droite et micro à gauche sans barre noire */
+.top-elements {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+#micContainer {
+    margin-left: 15px; /* Décalé légèrement plus à gauche */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#micBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#micBtn img {
+    width: 24px;
+    height: 24px;
+}
+
+.search-bar {
+    position: absolute;
+    right: 110px; /* Décalé légèrement plus à gauche */
+    top: -15px;
+    display: flex;
+    align-items: center;
+}
+
+#searchBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#searchBtn img {
+    width: 24px;
+    height: 24px;
+}
+
+#champRecherche {
+    display: none; /* Caché par défaut */
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+
+#champRecherche.show {
+    display: block; /* Affiche le champ de recherche quand actif */
+}
+
+/* Section des catégories */
+.categories {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 70px; /* Ajustement de la hauteur */
+    left: 30px; /* Décalage des catégories plus à gauche */
+}
+
+.category {
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.category:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Affiche du film avec un cadre */
+.featured-movie {
+    margin-top: 120px; /* Augmenté pour descendre l'image */
+    display: flex;
+    justify-content: center; /* Centré horizontalement */
+    width: 100%;
+    padding-left: 50px; /* Décalage léger vers la gauche */
+}
+
+.movie-poster-wrapper {
+    width: 80%;
+    max-width: 350px;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: -50px; /* Décale l'image légèrement vers la gauche */
+}
+
+.movie-poster {
+    width: 100%;
+    border-radius: 0; /* Coins non arrondis */
+    object-fit: cover;
+}
+
+/* Titre "Ma Liste" */
+.my-list-title {
+    margin-top: 30px; /* Espacement au-dessus de "Ma Liste" */
+    font-size: 24px;
+}
+
+/* Slider d'images */
+.image-slider {
+    width: 100%;
+    overflow-x: auto; /* Permet le défilement horizontal */
+    white-space: nowrap; /* Empêche le retour à la ligne */
+    padding: 10px 0;
+}
+
+.slider-wrapper {
+    display: inline-flex; /* Affiche les images côte à côte */
+}
+
+.slider-image {
+    width: 150px; /* Largeur fixe pour chaque image */
+    height: auto; /* Hauteur automatique */
+    margin-right: 10px; /* Espacement entre les images */
+    border: 3px solid transparent; /* Cadre transparent par défaut */
+    transition: border 0.3s; /* Transition pour l'effet de survol */
+}
+
+.slider-image:hover {
+    border: 3px solid white; /* Cadre blanc lors du survol */
+}
+
+/* Résultats de recherche au centre de l'écran */
+.search-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Prend la majorité de l'écran en mode mobile */
+    margin-top: 20px;
+}
+
+.search-result-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%; /* Prend toute la largeur disponible */
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Media Queries pour un affichage responsive */
+@media only screen and (max-width: 600px) {
+    .top-elements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-bar {
+        right: 20px; /* Ajustement pour les petits écrans */
+    }
+
+    #champRecherche {
+        width: 100%; /* Le champ de recherche prend toute la largeur de l'écran */
+    }
+
+    .categories {
+        flex-wrap: wrap; /* Les catégories se placent en ligne multiple si besoin */
+        left: 10px; /* Ajuste légèrement vers la gauche */
+    }
+
+    .featured-movie {
+        padding-left: 0; /* Enlève le padding pour le centrer sur mobile */
+    }
+
+    .movie-poster-wrapper {
+        margin-left: 0; /* Enlève la marge pour mieux centrer */
+    }
+
+    .search-results {
+        width: 100%; /* Prend toute la largeur de l'écran sur mobile */
+    }
+}
+
+/* Conteneur de la cloche */
+.notification-container {
+    position: fixed;
+    top: 50px; /* Cloche plus basse */
+    right: 200px; /* Cloche beaucoup plus à gauche */
+    width: 30px;  /* Taille réduite de la cloche */
+    height: 30px;
+    z-index: 1000;
+}
+
+/* Style de la cloche */
+.notification-bell {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Menu des notifications (caché par défaut) */
+.notification-menu {
+    display: none;
+    position: absolute;
+    top: 40px; /* Positionnement juste en dessous de la cloche */
+    left: -120px; /* Ajustement pour aligner le menu sous la cloche */
+    width: 250px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 999;
+}
+
+/* Style des items de notifications */
+.notification-item {
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f9f9f9;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}
+
+.notification-item:hover {
+    background-color: #f1f1f1;
+}

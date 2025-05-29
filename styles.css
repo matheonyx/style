@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282828;
+    height: 100vh;
+}
+
+.button-container {
+    position: fixed;
+    top: 75%; /* 3 quarts en bas */
+    right: 20px; /* Positionné à droite avec un décalage de 20px */
+    transform: translateY(-50%);
+    z-index: 1000; /* Assure que le bouton est au-dessus de tout */
+}
+
+#menuButton {
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond transparent légèrement noirci */
+    color: #ffffff; /* Texte blanc */
+    border: 2px solid #ffffff; /* Bordure blanche */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#menuButton:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fond légèrement visible au survol */
+}
+
+.dropdown-menu {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Fond transparent légèrement noirci */
+    border: 2px solid #ffffff; /* Bordure blanche */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000; /* Assure que le menu est au-dessus de tout */
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #ffffff; /* Texte blanc */
+    font-size: 18px;
+    display: block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond transparent légèrement noirci */
+    border-radius: 5px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fond légèrement visible au survol */
+}

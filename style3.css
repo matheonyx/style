@@ -1,0 +1,159 @@
+/* Importation de la police SF Pro Display */
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFProDisplay-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Display", sans-serif;
+    background-color: #000; /* Fond noir */
+    color: white;
+    margin: 0;
+}
+
+.header {
+    padding: 40px 20px 20px;
+    text-align: left;
+}
+
+.header h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    color: #8e8e8e;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+.downloads {
+    padding: 10px;
+    width: 100%;
+}
+
+.download-item {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.image-link img {
+    width: 150px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.details {
+    margin-left: 20px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.title {
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.info {
+    color: #8e8e8e;
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+.info.error {
+    color: #ff4d4d;
+}
+
+.action-badge {
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #444444;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: -45px; /* Ajustez cette valeur pour déplacer le bouton plus à gauche */
+}
+
+
+.loading-spinner {
+    position: absolute;
+    width: 50px; /* Taille du spinner */
+    height: 50px; /* Taille du spinner */
+    border: 3px solid transparent; /* Bordure fine */
+    border-top: 3px solid rgba(255, 223, 0, 0.8); /* Couleur jaune */
+    border-right: 3px solid rgba(0, 0, 0, 0.7); /* Transition en bleu foncé */
+    border-bottom: 3px solid #A45EFF; /* Violet */
+    border-left: 3px solid #28FFBF; /* Vert */
+    border-radius: 50%; /* Forme ronde */
+    box-shadow: 
+        0 0 20px rgba(255, 223, 0, 0.6), 
+        0 0 30px rgba(0, 0, 0, 0.7), 
+        0 0 40px rgba(164, 94, 255, 0.4), 
+        0 0 50px rgba(40, 255, 191, 0.4); /* Ombres lumineuses pour chaque couleur */
+    animation: spin 1s linear infinite, glow 1.5s ease-in-out infinite; /* Rotation et glow */
+    margin-left: -55px; /* Centrage horizontal */
+    display: block; /* Visible */
+}
+
+/* Animation de rotation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Effet lumineux avec ajout du jaune */
+@keyframes glow {
+    0%, 100% { 
+        box-shadow: 0 0 20px rgba(255, 223, 0, 0.6), 
+                    0 0 30px rgba(0, 0, 0, 0.7), 
+                    0 0 40px rgba(164, 94, 255, 0.4), 
+                    0 0 50px rgba(40, 255, 191, 0.4);
+    }
+    50% { 
+        box-shadow: 0 0 30px rgba(255, 223, 0, 0.8), 
+                    0 0 40px rgba(0, 0, 0, 0.9), 
+                    0 0 50px rgba(164, 94, 255, 0.6), 
+                    0 0 60px rgba(40, 255, 191, 0.5);
+    }
+}
+
+/* Animation de pulsation subtile */
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.05); opacity: 1; }
+}
+
+.loading-spinner.pulsing {
+    animation: spin 1s linear infinite, pulse 1.2s ease-in-out infinite, glow 1.5s ease-in-out infinite;
+}
+
+
+.point {
+   position: fixed; /* Position fixe pour le placer dans le coin supérieur droit */
+    top: 10px; /* Ajustez la distance du haut selon vos besoins */
+    right: 10px; /* Ajustez la distance de la droite selon vos besoins */
+    width: 12px; /* Taille du point brillant */
+    height: 12px; /* Taille du point brillant */
+    border-radius: 50%; /* Forme ronde */
+    background: white; /* Couleur blanche */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 0.5); /* Ombre brillante */
+    animation: pulse 1s ease-in-out infinite; /* Animation de pulsation */
+}
+
+
+

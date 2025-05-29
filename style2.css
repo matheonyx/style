@@ -1,0 +1,131 @@
+/* Style de base : blanc et noir */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #444444;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+/* Bouton Retour vers Disney++ */
+nav {
+    padding: 20px;
+    text-align: left;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #8e44ad;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.back-button i {
+    margin-right: 8px;
+}
+
+.back-button:hover {
+    color: #9b59b6;
+}
+
+/* Section */
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #444444;
+    padding-bottom: 10px;
+}
+
+/* Cartes d'information et d'actions */
+.user-card, .action-card, .offer-card {
+    border: 1px solid #333333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Animation au survol des cartes */
+.user-card:hover, .action-card:hover, .offer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Boutons */
+button {
+    background-color: #8e44ad; /* Boutons violets */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9b59b6;
+}
+
+/* Container pour les offres */
+.offers-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.offer-card {
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 2px solid #333333;
+}
+
+.offer-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.offer-card p {
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.offer-card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    border-top: 3px solid #444444;
+}
+
+
