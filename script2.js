@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Frozen La Reine des Neiges Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/frozen.html",
+          href: "https://matheonyx.github.io/Nesdy/frozen",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/59/df/e4/59dfe435-533c-123e-c142-1412d693ebe9/pr_source.lsr/738x416.webp"
         },
         {
