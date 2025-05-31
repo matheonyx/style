@@ -22,12 +22,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Avengers: Endgame Marvel",
-          href: "https://cottony-intriguing-plantain.glitch.me/Avengers%20Endgame.html",
+          href: "https://matheonyx.github.io/Nesdy/avengers%20endgame",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DB176BD1488D7E4822256EF1778C124FC17388FC1E7F0F6D89B38AFF5FB001F6/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Avengers: Infinity War Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/avengers%20infinity%20war.html",
+          href: "https://matheonyx.github.io/Nesdy/avengers%20infinity%20war",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(76).png?v=1722623228467"
         },
         {
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Alien Romulus",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Alien%20Romulus.html",
+          href: "https://matheonyx.github.io/Nesdy/Alien%20Romulus",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/alien%20romuluss.png?v=1724606638813"
         },
         {
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Dune 2",
-          href: "https://magnetic-lowly-sodalite.glitch.me/dune%202.html",
+          href: "https://matheonyx.github.io/Nesdy/dune%202",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/c9/a1/ec/c9a1ec4e-6829-4a98-12da-accd1e648cb2/464e85e7-c33f-4974-a417-d300fb13341c_DUNE_PART2_STD_APO_H_DD_KA_TT_CVRART_3840x2160_300dpi_FR-p3.lsr/738x416.webp"
         },
         {
@@ -116,8 +116,8 @@ document.addEventListener("DOMContentLoaded", function() {
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/08/e1/78/08e17806-7489-5444-c97d-ed4e1c9f1130/FOX_AVATAR_TH_FR_WW_ARTWORK_FR-FR_3840x2160_3T16AQ000004O4.lsr/738x416.webp"
         },
         {
-          title: "Avatar: The Way of Water",
-          href: "https://magnetic-lowly-sodalite.glitch.me/avatar%202.html",
+          title: "Avatar: The Way of Water Avatar 2",
+          href: "https://matheonyx.github.io/Nesdy/avatar%202",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/8b/09/94/8b09946b-28fd-7f9a-c3ce-125fc3b42609/FOX_AVATAR_TWOW_TH_FR_ITUNES_CH_LU_BE_FR_ARTWORK_FR-FR_3840x2160_3Q03R500000GTZ.lsr/738x416.webp"
         },
         {
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Docteur Doctor Strange 2 Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/doctor%20strange%20in%20the%20multiverse%20of%20madness.html",
+          href: "https://matheonyx.github.io/Nesdy/doctor%20strange%20in%20the%20multiverse%20of%20madness",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/doctor%20strange%202.png?v=1731766676306"
         },
         {
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Dragons 2 Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/dragon%202.html",
+          href: "https://matheonyx.github.io/Nesdy/dragon%202",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/dragons%202.png?v=1724610783186"
         },
         {
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Walt Disney",
-          href: "https://chisel-calico-tent.glitch.me/Walt%20Disney%20Studios.html",
+          href: "https://matheonyx.github.io/Nesdy/Walt%20Disney%20Page",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6325B69DA9F443F25EAE6C90ADEA67B0BB3A8B061D0505290A40FF1A50942E2A/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
@@ -168,22 +168,22 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Dune",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Dune.html",
+          href: "https://matheonyx.github.io/Nesdy/Dune",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/dune.png?v=1726687592433"
         },
         {
           title: "Deadpool Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Deadpooll.html",
+          href: "https://matheonyx.github.io/Nesdy/Deadpooll",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Deadpool.png?v=1723658530622"
         },
         {
           title: "Deadpool 2 Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Deadpool%202.html",
+          href: "https://matheonyx.github.io/Nesdy/Deadpool%202",
           imgSrc: "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7412/297412-h"
         },
         {
           title: "Deadpool 3 Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/deadpool3.html",
+          href: "https://matheonyx.github.io/Nesdy/deadpool3",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/deadpool3.png?v=1727810276123"
         },
         {
@@ -290,27 +290,27 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Frozen 2 La Reine des Neiges Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/frozen%20II.html",
+          href: "https://matheonyx.github.io/Nesdy/frozen%20II",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/frozen%202.png?v=1732396291311"
         },
         {
           title: "L'Age de Glace",
-          href: "https://magnetic-lowly-sodalite.glitch.me/L'age%20de%20glace.html",
+          href: "https://matheonyx.github.io/Nesdy/L'age%20de%20glace.html",
           imgSrc: "https://cdn.glitch.global/aba06776-3d00-4213-9643-021321905a51/Design%20sans%20titre.png?v=1746874404914"
         },
         {
           title: "L'Age de Glace 2",
-          href: "https://magnetic-lowly-sodalite.glitch.me/l'age%20de%20glace%202.html",
+          href: "https://matheonyx.github.io/Nesdy/l'age%20de%20glace%202.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/1svWKFIHvWf9YOJ4zGJRcg/738x416.webp"
         },
         {
           title: "L'Age de Glace 3",
-          href: "https://magnetic-lowly-sodalite.glitch.me/l'age%20de%20glace%203.html",
+          href: "https://matheonyx.github.io/Nesdy/l'age%20de%20glace%203",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/ivCIqZuht-pZsGMiKU_i4A/738x416.webp"
         },
         {
           title: "L'Age de Glace 4",
-          href: "https://magnetic-lowly-sodalite.glitch.me/l'age%20de%20glace%204.html",
+          href: "https://matheonyx.github.io/Nesdy/l'age%20de%20glace%204.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/9Ekw6XAaKScFj2DEDmLBcQ/738x416.webp"
         },
         {
@@ -340,7 +340,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Le Grinch Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Le%20Grinch.html",
+          href: "https://matheonyx.github.io/Nesdy/Le%20Grinch.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/e3/be/12/e3be12ab-78a5-d8d5-1187-fa9b333d079e/1442083159-WW-AMP_SF.lsr/738x416.webp"
         },
         {
@@ -355,7 +355,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Les Indestructibles 2 Disney Pixar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Les%20indestructibles%202.html",
+          href: "https://matheonyx.github.io/Nesdy/Les%20indestructibles%202",
           imgSrc: "https://actu.6play.fr/wp-content/uploads/2023/12/les-indestructibles-2-film-M6.jpg"
         },
         {
@@ -475,32 +475,32 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Les Minions moi moche Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/les%20minions.html",
+          href: "https://matheonyx.github.io/Nesdy/les%20minions.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/fn9Dlm4KYaVJkHP_1ns8PQ/738x416.webp"
         },
         {
           title: "Les Minion 2 moi moche Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Minions%20Rise%20of%20Gru.html",
+          href: "https://matheonyx.github.io/Nesdy/Minions%20Rise%20of%20Gru.html",
           imgSrc: "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXnD0gL2zz1gpjks92TMeC3lk8-4ztbdEmygcPA59wQ25DQTO300OSVdivtooVHt5aKx4RxZRxpxUq1CtmKl0Wc_lkoTqPrCviX8.jpg?r=8da"
         },
         {
           title: "Moi, moche et méchant les minions Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/despicable%20me.html",
+          href: "https://matheonyx.github.io/Nesdy/despicable%20me.html",
           imgSrc: "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUTdsCl_NL4bhr2bLmYoioSNPVhuJC3-V5H82Dre5LppXx7h5FXBTTieBZ6u5fCZ99txbN2y8zFCTw7XM62fo-mYB60rDgkHC66c.jpg?r=f23"
         },
         {
           title: "Moi, moche et méchant 2 les minions Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/despicable%20me%202.html",
+          href: "https://matheonyx.github.io/Nesdy/despicable%20me%202",
           imgSrc: "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABTf7AYCVpaBw6HkPdDhSblIy47M1Z6gBUmyFFA0mUytln1aW-46VpzXo55H6uPQCrf3Nt8FbwQDsbLnXj3f_ya_Oq_X2ELy2kIoO.jpg?r=585"
         },
         {
           title: "Moi, moche et méchant 3 les minions Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Despicable%20me%203.html",
+          href: "https://matheonyx.github.io/Nesdy/Despicable%20me%203",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(12).png?v=1717001255193"
         },
         {
           title: "Moi, moche et méchant 4 les minions Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Despicable%20me%204.html",
+          href: "https://matheonyx.github.io/Nesdy/Despicable%20me%204",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(70).png?v=1722597405369"
         },
         {
