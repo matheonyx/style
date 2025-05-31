@@ -395,7 +395,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Le Noel de Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Le%20Noel%20de%20Disney.html",
+          href: "https://matheonyx.github.io/Nesdy/Le%20Noel%20de%20Disney.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E5D0E16F057CF3308DC54EC26A35D2828FBB8B3C36C6F04E044327C5848ADD02/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
@@ -405,52 +405,52 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "La Belle et le Clochard Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/La%20Belle%20et%20le%20Clochard.html",
+          href: "https://matheonyx.github.io/Nesdy/La%20Belle%20et%20le%20Clochard.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/05CA6860AB0CA0B3323896BC3BD325FC7D7BB9F1C78283A35EABFC564AA0E3FC/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "La Belle et le Clochard Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Lady's%20and%20the%20Tramp.html",
+          href: "https://matheonyx.github.io/Nesdy/Lady's%20and%20the%20Tramp.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Eob_rdC4EC40BKhLeH0A2g/738x416.webp"
         },
         {
           title: "Les Aristochats Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/les%20aristochats.html",
+          href: "https://matheonyx.github.io/Nesdy/les%20aristochats.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A8464B2ACFE680B4F1663BA545501B7133B67789034363EC88396BED28F63ED6/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "La Belle au bois dormant Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la%20belle%20au%20bois%20dormant.html",
+          href: "https://matheonyx.github.io/Nesdy/la%20belle%20au%20bois%20dormant.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/96D5E72467DA66DEC9FB632F41F8310673D951C4FDDBEC31E4AC8001F5070B4D/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Le Livre de la Jungle Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/le%20livre%20de%20la%20jungle.html",
+          href: "https://matheonyx.github.io/Nesdy/le%20livre%20de%20la%20jungle.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F1BC026C21D7C9F002B8FA36345C7CD1B1B4B768588AE934B08ED6E50177A410/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Le Livre de la Jungle Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/le%20livre%20de%20la%20jungled.html",
+          href: "https://matheonyx.github.io/Nesdy/le%20livre%20de%20la%20jungled.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/78D8F004F759DDDA86B4F63318EC8787D86583A0779F93D6A5EE51520EB60255/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "La Belle et la Bete Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la%20belle%20et%20la%20beted.html",
+          href: "https://matheonyx.github.io/Nesdy/la%20belle%20et%20la%20beted.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A551D1E66E584EA6085E2B8411970A72CC217B11AA109AA0D2304CCF1CDE3F12/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "L'anniversaire de Mickey Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/mickey%20birthday%20party.html",
+          href: "https://matheonyx.github.io/Nesdy/mickey%20birthday%20party.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F61CC1EF49ADAD9FB35017E97D60F3DA65DF109F144D6EC207B5CF200F088739/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Le Cinquième élément",
-          href: "https://magnetic-lowly-sodalite.glitch.me/le%20cinquieme%20element.html",
+          href: "https://matheonyx.github.io/Nesdy/le%20cinquieme%20element.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/8cebbdb07ec4d18aaba4b4933a7f3815adaf405a467326031deec7ade745d82d.jpg"
         },
         {
           title: "Les 4 Fantastiques Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/les%204%20fantastiques.html",
+          href: "https://matheonyx.github.io/Nesdy/les%204%20fantastiques.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9A485CF3626B9A6D54E037ED61A745FC8C67614BBC7B842F441AF176698F2176/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
