@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Aladdin Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Aladdin.html",
+          href: "https://matheonyx.github.io/Nesdy/Aladdin",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/alladin.png?v=1735930538337"
         },
         {
@@ -400,7 +400,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Lilo et Stitch Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/lilo%20et%20stitch.html",
+          href: "https://matheonyx.github.io/Nesdy/lilo%20et%20stitch.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/54C600FA3BA338DF3AC1860806791A4798E441B13F7030E45265B00290F8E549/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
