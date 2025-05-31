@@ -12,12 +12,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Avengers Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/avengers.html",
+          href: "https://matheonyx.github.io/Nesdy/avengers.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3244A585F6BA64DC3204BF43D7422DC53849873C5635E660521ED37E8CE3CCC0/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Avengers: L'ère d'Ultron Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/avengers%20l'%C3%A8re%20d'ultron.html",
+          href: "https://matheonyx.github.io/Nesdy/avengers%20l'%C3%A8re%20d'ultron.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B828B85D669F0F3ECFE14931F45CE6C14039F276E19BFA85C9B96A5D027E4C7B/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
@@ -47,12 +47,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Alien",
-          href: "https://magnetic-lowly-sodalite.glitch.me/aliens%20le%20huiti%C3%A8me%20passager.html",
+          href: "https://matheonyx.github.io/Nesdy/aliens%20le%20huiti%C3%A8me%20passager.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/41/bd/d5/41bdd59e-9967-e988-3ca9-b885fb7035c2/pr_source.lsr/738x416.webp"
         },
         {
           title: "Alien Covenant",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Alien%20Covenant.html",
+          href: "https://matheonyx.github.io/Nesdy/Alien%20Covenant",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/24/01/40/240140fb-5363-cef1-8d71-613f523c434d/Alien_Covenant_CoverArt_3840x2160.lsr/738x416.webp"
         },
         {
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Alien Resurrection",
-          href: "https://magnetic-lowly-sodalite.glitch.me/alien%20resurection.html",
+          href: "https://matheonyx.github.io/Nesdy/alien%20resurection.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/60/45/5a/60455a9f-af14-797d-e1d6-e6c7424ea64d/AlienResurrection_CoverArt_3840x2160.lsr/738x416.webp"
         },
         {
@@ -720,7 +720,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Batman",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Batman.html",
+          href: "https://matheonyx.github.io/Nesdy/Batman",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video112/v4/b2/55/f2/b255f2d1-582c-8b48-95ed-7df5aff912de/pr_source.jpg/738x416.webp"
         },
         {
@@ -730,7 +730,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "BeetleJuice",
-          href: "https://magnetic-lowly-sodalite.glitch.me/BeetleJuice.html",
+          href: "https://matheonyx.github.io/Nesdy/BeetleJuice",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/jzm7j3pHuLxU3lb9kVTPdw/738x416.webp"
         },
         {
@@ -740,7 +740,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Blanche-Neige SnowWhite Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/blanche%20neige.html",
+          href: "https://matheonyx.github.io/Nesdy/blanche%20neige.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/499B892AD0DA9A75DAB85D2BB5FF83CED3F8285E5960BDFB6D16BA7D6BE11EE7/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
@@ -835,7 +835,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Bumblebee Transformers",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Bumblebee.html",
+          href: "https://matheonyx.github.io/Nesdy/Bumblebee.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/e9/92/58/e99258a9-8ab2-9289-80f6-7829dde9705d/pr_source.jpg/738x416.webp"
         },
         {
@@ -975,17 +975,17 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Vice-Versa Pixar Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Vice-Versa.html",
+          href: "https://matheonyx.github.io/Nesdy/Vice-Versa",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(80).png?v=1722630237152"
         },
         {
           title: "Vaiana Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Vaiana.html",
+          href: "https://matheonyx.github.io/Nesdy/Vaiana.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3787D4310930F82238BD43734D39B5DCEF24647EDBE4DD8A44F2E6B02268A669/scale?width=800&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Vaiana 2 Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/vaiana2.html",
+          href: "https://matheonyx.github.io/Nesdy/vaiana2",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E142A98B41646B7E62B2FB491327DEDE5FEF6DB9C7734C78B7F1866E448BCCAF/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
@@ -1000,7 +1000,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Venom 3 The Last Dance Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/venom3.html",
+          href: "https://matheonyx.github.io/Nesdy/venom3",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/venom3.png?v=1730664265207"
         },
         {
@@ -1010,32 +1010,32 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Vice-Versa 2 Pixar Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/vice%20versa%202.html",
+          href: "https://matheonyx.github.io/Nesdy/vice%20versa%202.html",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(52).png?v=1719250978697"
         },
         {
           title: "Cars Disney Pixar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Cars.html",
+          href: "https://matheonyx.github.io/Nesdy/Cars",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DAEA3DF262FC8CB385256F2120EB4DD65F00E6EC1A81856ADB6C4E81AD70EFC8/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Cars 2 Disney Pixar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Cars%202.html",
+          href: "https://matheonyx.github.io/Nesdy/Cars%202",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DBD5533F17B9EE43C09428933ED51A53A7125EE02DA7D6D9A878DF305CFA0B86/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Cars 3 Disney Pixar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Cars%203.html",
+          href: "https://matheonyx.github.io/Nesdy/Cars%203",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/480C5814B179254B5117CAEA8805BD680437DEC1554A1A387821815B242ABD17/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Comme des Bêtes Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/comme%20des%20betes.html",
+          href: "https://matheonyx.github.io/Nesdy/comme%20des%20betes.html",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(61).png?v=1722010993626"
         },
         {
           title: "Comme des Bêtes 2 Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/commedesbetes2.html",
+          href: "https://matheonyx.github.io/Nesdy/commedesbetes2.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/e0250aa323c66454e3b0dd21c57c55d2dfa712726333a33f03878a665b6b81e9.jpg"
         },
         {
@@ -1320,7 +1320,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Black Panther:  Wakanda Forever Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Black%20panther%20wakanda%20forever.html",
+          href: "https://matheonyx.github.io/Nesdy/Black%20panther%20wakanda%20forever.html",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Black%20Panther%20Wakanda%20Forever.png?v=1724058827682"
         },
         {
@@ -1495,7 +1495,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Blanche Neige Snowwhite Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/blancheneige.html",
+          href: "https://matheonyx.github.io/Nesdy/blancheneige.html",
           imgSrc: "https://cdn.glitch.global/b5e38bca-811c-495c-aa28-c13540ae7e7b/snowwhite.png?v=1746911883604"
         },
         {
@@ -1515,12 +1515,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Zootopie Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Zootopie.html",
+          href: "https://matheonyx.github.io/Nesdy/Zootopie.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/74E827F13D07A634F5A1B7013A00C3323CD672B3B900C25CBFABB993E5BD7A57/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Minecraft, le film",
-          href: "https://magnetic-lowly-sodalite.glitch.me/minecraft.html",
+          href: "https://matheonyx.github.io/Nesdy/minecraft.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/0427576a5a5fcfb736cb22d7445e3cf28c35a65702481d04e0ccbcbaea2f1ee2.jpg"
         },
         {
@@ -1655,7 +1655,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Black Widow",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Black%20Widow.html",
+          href: "https://matheonyx.github.io/Nesdy/Black%20Widow",
           imgSrc: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/f2beecb2-cf45-4e75-9197-e74b16bc3add?/scale?width=1200&aspectRatio=1.78&format=webp"
         },
          {
