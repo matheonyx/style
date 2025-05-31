@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Avatar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/avatar.html",
+          href: "https://matheonyx.github.io/Nesdy/avatar",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/08/e1/78/08e17806-7489-5444-c97d-ed4e1c9f1130/FOX_AVATAR_TH_FR_WW_ARTWORK_FR-FR_3840x2160_3T16AQ000004O4.lsr/738x416.webp"
         },
         {
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Films commençant par D
         {
           title: "Docteur Doctor Strange Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/doctor%20strange.html",
+          href: "https://matheonyx.github.io/Nesdy/doctor%20strange.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/9d/de/bb/9ddebb25-d1e3-b16d-9262-ac320f1a5b87/DIS_DOCTOR_WW_ARTWORK_EN-US_3840x2160_1MNZCS000000CI.lsr/738x416.webp"
         },
         {
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Dragons Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/dragons.html",
+          href: "https://matheonyx.github.io/Nesdy/dragons.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/da/b5/66/dab566e8-e709-f294-d53d-c1ebbe19c127/UNI_HOW_TO_TRAIN_YOUR_DRAGON_FRP_FR_ARTWORK_FR-FR_3840x2160_1JRTHG000005NE.lsr/738x416.webp"
         },
         {
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Dragons 3 Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Dragon%203.html",
+          href: "https://matheonyx.github.io/Nesdy/Dragon%203",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/66/5e/a2/665ea2c0-5199-bbf4-9d6e-fb517ade2eec/10A86_FR_HowToTrainYourDragon_TheHiddenWorld_3840x2160.lsr/738x416.webp"
         },
         {
@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Donjons et Dragons : L'Honneur des voleurs",
-          href: "https://magnetic-lowly-sodalite.glitch.me/donjons%20et%20dragons.html",
+          href: "https://matheonyx.github.io/Nesdy/donjons%20et%20dragons.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/4d/4f/c6/4d4fc63f-dd5e-0051-bc5e-18180265f431/pr_source.jpg/738x416.webp"
         },
         {
@@ -193,94 +193,94 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Dinosaure Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Dinosaures.html",
+          href: "https://matheonyx.github.io/Nesdy/Dinosaures.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3F389784F92C91B739CE20B9EBC4991DAF8B7380DC390D8BFEF6B3E6207FA61F/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Dumbo Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/dumbo.html",
+          href: "https://matheonyx.github.io/Nesdy/dumbo",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9DFE8402A510E146639C256242A45C0FBFA2176C373CD3BCB24716F8E94BF26C/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Dream Productions Pixar Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/dream%20productions.html",
+          href: "https://matheonyx.github.io/Nesdy/dream%20productions.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/99A284CFAF0E12A041DCD232D77A8B68D3F9BAC7A905C15FE7A983110F089DCA/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Dingo Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/the%20olympic%20champ.html",
+          href: "https://matheonyx.github.io/Nesdy/the%20olympic%20champ.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BC7C807763060B471423E1BAC84D812D0F266CCA10F94AA15D216B655C5012CB/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         // Films commençant par H
         {
           title: "Harry Potter 1",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Harry%20Potter.html",
+          href: "https://matheonyx.github.io/Nesdy/Harry%20Potter.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/82/ea/72/82ea721f-3ae4-d1e8-a510-7761fd4c9cde/7ff8ac37-d0e0-49a7-8d6d-19fe46401d45_HP1_PhilosophersStone_2022Drafting_BeastLL_H_DD_KA_TT_CVRART_3840x2160_300dpi_FR-p3.lsr/738x416.webp"
         },
         {
           title: "Harry Potter 2",
-          href: "https://magnetic-lowly-sodalite.glitch.me/harry%20potter%202.html",
+          href: "https://matheonyx.github.io/Nesdy/harry%20potter%202.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/26/06/4d/26064d7e-a91c-3174-5078-c74a7c6b6067/6ed314db-81f5-49e4-820d-c7bbf02083a0_HP2_ChamberofSecrets_2022Drafting_BeastLL_H_DD_KA_TT_CVRART_3840x2160_300dpi_FR-p3.lsr/738x416.webp"
         },
         {
           title: "Harry Potter 3",
-          href: "https://magnetic-lowly-sodalite.glitch.me/harry%20potter3.html",
+          href: "https://matheonyx.github.io/Nesdy/harry%20potter3.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/9d/11/8c/9d118cc4-8e2b-9490-ce46-051e3dd8a51f/3ad222dd-07dc-4add-9ba9-4181fc92fa58_HP3_PrisonerofAzkaban_2022Drafting_BeastLL_H_DD_KA_TT_CVRART_3840x2160_300dpi_FR-p3.lsr/738x416.webp"
         },
         {
           title: "Harry Potter 4",
-          href: "https://magnetic-lowly-sodalite.glitch.me/harry%20potter4.html",
+          href: "https://matheonyx.github.io/Nesdy/harry%20potter4.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/bb/e7/c7/bbe7c78b-1941-5c0d-cabb-ae7623377043/c755c978-2fb4-4ae9-8e32-eacbeea23ef4_HP4_GobletofFire_2022Drafting_BeastLL_H_DD_KA_TT_CVRART_3840x2160_300dpi_FR-p3.lsr/738x416.webp"
         },
         {
           title: "Harry Potter 5",
-          href: "https://magnetic-lowly-sodalite.glitch.me/harry%20potter%205.html",
+          href: "https://matheonyx.github.io/Nesdy/harry%20potter%205.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/00/31/fd/0031fdfd-c558-b529-de62-39b6beeb6ca1/cb8c9a73-8fee-4b2d-878d-ca6155c739e5_HP5_OrderofthePhoenix_2022Drafting_BeastLL_H_DD_KA_TT_CVRART_3840x2160_300dpi_FR-p3.lsr/738x416.webp"
         },
         {
           title: "Harry Potter 6",
-          href: "https://magnetic-lowly-sodalite.glitch.me/harry%20potter%206.html",
+          href: "https://matheonyx.github.io/Nesdy/harry%20potter%206.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/ec/7c/ae/ec7cae3a-a29c-dba2-3eb1-56f07deeb631/21eaec97-3b39-46e4-8d66-6c5ddf3c3868_HP6_HalfBloodPrince_2022Drafting_BeastLL_H_DD_KA_TT_CVRART_3840x2160_300dpi_FR-p3.lsr/738x416.webp"
         },
         {
           title: "Harry Potter 7",
-          href: "https://magnetic-lowly-sodalite.glitch.me/harry%20potter%207.html",
+          href: "https://matheonyx.github.io/Nesdy/harry%20potter%207.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/2f/b7/45/2fb745e1-c643-88e1-2d35-d659c9a8bd67/cd949987-f11d-462e-a869-d2acd1d28c4d_HP7_DeathlyHallows_Part1_2022Drafting_BeastLL_H_DD_KA_TT_CVRART_3840x2160_300dpi_FR-p3.lsr/738x416.webp"
         },
         {
           title: "Harry Potter 7 part 2",
-          href: "https://magnetic-lowly-sodalite.glitch.me/harry%20potter%208.html",
+          href: "https://matheonyx.github.io/Nesdy/harry%20potter%208.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/53/2f/6c/532f6c15-055b-262d-a52d-88faa7b6eac1/537b9a90-7435-4e36-b12f-59865c6cfec7_HP7_DeathlyHallows_Part2_2022Drafting_BeastLL_H_DD_KA_TT_CVRART_3840x2160_300dpi_FR-p3.lsr/738x416.webp"
         },
         {
           title: "Horizon an american saga",
-          href: "https://magnetic-lowly-sodalite.glitch.me/horizon%20an%20american%20saga.html",
+          href: "https://matheonyx.github.io/Nesdy/horizon%20an%20american%20saga.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/d4ef64e69392ccde9ee53c7aa48f100f05b1f227fee0b4151b7cc64d21259772.jpg"
         },
         {
           title: "Hot Frosty",
-          href: "https://magnetic-lowly-sodalite.glitch.me/hot%20frosty.html",
+          href: "https://matheonyx.github.io/Nesdy/hot%20frosty.html",
           imgSrc: "https://cdn.glitch.global/b5e38bca-811c-495c-aa28-c13540ae7e7b/Design%20sans%20titre.png?v=1732094563958"
         },
         {
           title: "Harold et le Crayon Magique",
-          href: "https://magnetic-lowly-sodalite.glitch.me/harold%20et%20le%20crayon%20magique.html",
+          href: "https://matheonyx.github.io/Nesdy/harold%20et%20le%20crayon%20magique.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/7295c3c34836d7cbdc6def66790e4b856690bd8dc0a15c35360ed6ee34ae84d5.jpg"
         },
         {
           title: "Hulk Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Hulk.html",
+          href: "https://matheonyx.github.io/Nesdy/Hulk.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A6CC9A2581AE4D71C319B17BF2BB6FEEE578172DD118A6011E50FFCDE9F1FF26/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         // Films commençant par L
         {
           title: "Le Roi Lion 1994 Mufasa Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/The%20Lion%20King%201994.html",
+          href: "hhttps://matheonyx.github.io/Nesdy/The%20Lion%20King%201994.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/06/c7/76/06c77670-a5d2-5925-4c33-1e514cb3f4a8/DIS_THE_LION_KING_FR_ARTWORK_FR-FR_3840x2160_1O4QKK0000014V.lsr/738x416.webp"
         },
         {
           title: "Le Roi Lion 2 Mufasa Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Le%20roi%20Lion%202.html",
+          href: "https://matheonyx.github.io/Nesdy/Le%20roi%20Lion%202.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2DC8975601DFC2C2FC31419EEB47F474A75BC6A3941419BEB87530474CBD21F8/scale?width=600&aspectRatio=1.78&format=webp"
         },
         {
@@ -315,12 +315,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "L'Age de Glace 5",
-          href: "https://magnetic-lowly-sodalite.glitch.me/l'age%20de%20glace%205.html",
+          href: "https://matheonyx.github.io/Nesdy/l'age%20de%20glace%205.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/75/ac/35/75ac35b1-7fce-4552-81ff-6fc85776c8a0/1128022525-WW-AMP_SF.lsr/738x416.webp"
         },
         {
           title: "Ice Age: Scrat Tails",
-          href: "https://magnetic-lowly-sodalite.glitch.me/L'age%20de%20Glace%20les%20aventures%20de%20Scratt.html",
+          href: "https://matheonyx.github.io/Nesdy/ice%20age%20of%20buck%20wild.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/52AA61B091FDCBA99E0FED43D235C63725E7A1855B4A747CB53CAC80A0CC298C/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
@@ -335,7 +335,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Little Mermaid Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/The%20Little%20Mermaid.html",
+          href: "https://matheonyx.github.io/Nesdy/The%20Little%20Mermaid.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/f8/1f/16/f81f16f8-a55e-1db8-5b03-c6de24b75c11/DIS_LITTLE_MERMAID_ITUNES_ARTWORK_WW_ARTWORK_EN_3840x2160_3U5EKX0000051N-R1.lsr/738x416.webp"
         },
         {
@@ -345,12 +345,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Le Grinch",
-          href: "https://magnetic-lowly-sodalite.glitch.me/How%20the%20Grinch%20stole%20Christmas.html",
+          href: "https://matheonyx.github.io/Nesdy/How%20the%20Grinch%20stole%20Christmas.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/plAp7AUD38AbpjE6sDrDwQ/738x416.webp"
         },
         {
           title: "Les Indestructibles Disney Pixar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/les%20indestructibles.html",
+          href: "https://matheonyx.github.io/Nesdy/les%20indestructibles.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/58F02386239ABDFEACFC27D5E3B2CDB62FD412246C53A0E7BD414761E2EC1962/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
@@ -360,37 +360,37 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Le Retour de la Momie",
-          href: "https://magnetic-lowly-sodalite.glitch.me/le%20retour%20de%20la%20momie.html",
+          href: "https://matheonyx.github.io/Nesdy/le%20retour%20de%20la%20momie.html",
           imgSrc: "https://cdn.glitch.global/b5e38bca-811c-495c-aa28-c13540ae7e7b/Design%20sans%20titre%20(1).png?v=1732095347932"
         },
         {
           title: "Le Voyage d'Arlo Disney Pixar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/le%20voyage%20d'arlo.html",
+          href: "https://matheonyx.github.io/Nesdy/le%20voyage%20d'arlo.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/45920AB8F04BE00AC885794A960F24AC1FEAF5A17AFF336B1C90A2CE02B5EC53/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Le Monde de Nemo Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Le%20Monde%20de%20Nemo.html",
+          href: "https://matheonyx.github.io/Nesdy/Le%20Monde%20de%20Nemo.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EA4A2F9242425E8245162655BD5A1558F6A3BF1DBCB106AD214620A48B6DA9EF/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Le Monde de Dory Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/le%20monde%20de%20dory.html",
+          href: "https://matheonyx.github.io/Nesdy/le%20monde%20de%20dory.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9CEB36F7C2D9573439B297E2B7D5781C4C3EE48E25B857922E4286CC4E059B26/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Là-haut Disney Pixar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la-haut.html",
+          href: "https://matheonyx.github.io/Nesdy/la-haut.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2B8842A711E8FC7318DD0E252EFE95639151C9C27C20E4BB69CF1E05090C6108/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Luca Disney Pixar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/luca.html",
+          href: "https://matheonyx.github.io/Nesdy/luca.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/18EBF004584F885BCA876B525C693464A6E810817D9189FD77C1B1C190F82AD2/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "La Princesse et la Grenouille Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/La%20Princesse%20et%20la%20grenouille.html",
+          href: "https://matheonyx.github.io/Nesdy/La%20Princesse%20et%20la%20grenouille.html",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/La%20princesse%20et%20la%20grenouille.png?v=1724146003153"
         },
         {
