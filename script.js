@@ -76,12 +76,12 @@ const videos = [
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/%E3%80%904K%2060FPS%20HDR%E3%80%91Trailer%20%EF%BD%9C%20Moana%202.mp4?v=1733514184057",
     logo: "https://lumiere-a.akamaihd.net/v1/images/image_2fe2f467.png",
-    link: "https://magnetic-lowly-sodalite.glitch.me/vaiana2.html"
+    link: "https://matheonyx.github.io/Nesdy/vaiana2"
   },
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Minions%20The%20Rise%20of%20Gru%20%20Official%20Trailer%20%202021.mp4?v=1740512944636",
     logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Minions_-_The_Rise_of_Gru_logo.svg",
-    link: "https://magnetic-lowly-sodalite.glitch.me/Minions%20Rise%20of%20Gru.html"
+    link: "https://matheonyx.github.io/Nesdy/Minions%20Rise%20of%20Gru.html"
   },
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Mufasa%20The%20Lion%20King%20%5B4K%2060FPS%5D.mp4?v=1739909058618",
@@ -91,7 +91,7 @@ const videos = [
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Dune%20Part%20Two%20%20%20Paul%20Atreides%20Rides%20A%20Sandworm%20%20ClipZone%20High%20Octane%20Hits.mp4?v=1729579726280",
     logo: "https://image.tmdb.org/t/p/original/yJtgOc8lcP2Iugn0o3e1F0ZEmur.png",
-    link: "https://magnetic-lowly-sodalite.glitch.me/dune%202.html"
+    link: "https://matheonyx.github.io/Nesdy/dune%202"
   },
   {
     src: "https://www.universalpictures.fr/tl_files/content/hero/kfp4_trailer.mp4",
@@ -101,7 +101,7 @@ const videos = [
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/%5B4K60FPS%5D%20Star%20Wars%20Episode%20IX%20-%20The%20Rise%20of%20Skywalker%20%202019.mp4?v=1740513443454",
     logo: "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-logo_3314d2cd.png?region=0,0,800,402",
-    link: "https://magnetic-lowly-sodalite.glitch.me/star%20wars%20IX.html"
+    link: "https://matheonyx.github.io/Nesdy/star%20wars%20IX"
   },
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Puss%20in%20Boots%20The%20Last%20Wish%20%20Trailer%20%231%20(4K%2060FPS)%202022.mp4?v=1740564264356",
@@ -111,7 +111,7 @@ const videos = [
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Vice-Versa%202%20-%20Bande-annonce%20officielle%20%20Disney.mp4?v=1724172514368",
     logo: "https://lumiere-a.akamaihd.net/v1/images/image_d55b2730.png",
-    link: "https://magnetic-lowly-sodalite.glitch.me/vice%20versa%202.html"
+    link: "https://matheonyx.github.io/Nesdy/vice%20versa%202.html"
   },
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/%E3%80%904K%2060FPS%20HDR%E3%80%91New%20Trailer%20%EF%BD%9C%20Sonic%20The%20Hedgehog%203.mp4?v=1740516618385",
@@ -121,7 +121,7 @@ const videos = [
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/MORTAL%20KOMBAT%20Trailer%20%231%20(4K%20ULTRA%20HD%2060FPS)%20NEW%202021.mp4?v=1733654744535",
     logo: "https://occ-0-8407-116.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABcHOJX5Tw6C818wzyPJLP5Au_b2bIPFRiO2dIkyuqu3CnQHARhIDJVrc-qwVpba5exsqni_3E_24YnfjUlNcHhNV6BELnblCsh04x4Fab--B.png?r=703",
-    link: "https://magnetic-lowly-sodalite.glitch.me/venom3.html"
+    link: "https://matheonyx.github.io/Nesdy/venom3"
   },
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/CE%20NO%C3%8BL-L%C3%80%20Bande%20Annonce%20VF%20(2024).mp4?v=1734081163116",
