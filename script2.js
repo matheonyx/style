@@ -1310,7 +1310,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Captain America: Brave The New World Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/captain%20america%20brave%20new%20world.html",
+          href: "https://matheonyx.github.io/Nesdy/captain%20america%20brave%20new%20world.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B98993E92597D615AE2F995F02958986137B5084A381B10891688F20EA224574/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
