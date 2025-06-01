@@ -665,27 +665,27 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Baby Boss Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/baby%20boss%202.html",
+          href: "https://matheonyx.github.io/Nesdy/baby%20boss.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/f1/e3/3c/f1e33cd7-d241-0917-b9e9-121621234eac/1219155711-WW-AMP_SF.lsr/738x416.webp"
         },
         {
           title: "Baby Boss 2 Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la%20petite%20sir%C3%A8ne.html",
+          href: "https://matheonyx.github.io/Nesdy/baby%20boss%202.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/74/fa/a4/74faa4c9-c911-ba80-19cc-f9faac7e2222/UNI_BOSS_BABY_FAMILY_BUSINESS_THE_EST_BE_FR_LU_ARTWORK_FR-FR_3840x2160_2ULYMC0000JWUY.png/738x416.webp"
         },
         {
           title: "Borderlands",
-          href: "https://magnetic-lowly-sodalite.glitch.me/borderland.html",
+          href: "https://matheonyx.github.io/Nesdy/borderland.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/0d/d0/54/0dd0547c-617b-6e65-ed8b-ad5b9cc57d54/70bc9afb-05d5-4939-ba41-83e0e604d16d_Borderlands_iTunesStore_3840x2160_LSR.lsr/738x416.webp"
         },
         {
           title: "Bambi Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/bambi.html",
+          href: "https://matheonyx.github.io/Nesdy/bambi.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/24/d3/57/24d3578b-24f1-6f86-2e71-0d5b12c87a8f/DIS_BAMBI_WW_ARTWORK_EN-US_3840x2160_1N4G7I000000CR.lsr/738x416.webp"
         },
         {
           title: "Jurassic Park",
-          href: "https://magnetic-lowly-sodalite.glitch.me/jurassic%20park.html",
+          href: "https://matheonyx.github.io/Nesdy/jurassic%20park.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/09/29/46/09294670-5894-09f1-0135-408146de20d4/596645698-WW-AMP_SF.lsr/738x416.webp"
         },
         {
@@ -695,12 +695,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Jurassic Park III",
-          href: "https://magnetic-lowly-sodalite.glitch.me/jurassic%20park%203.html",
+          href: "https://matheonyx.github.io/Nesdy/jurassic%20park%203.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video112/v4/5b/97/9e/5b979e7c-9a73-84ee-35f0-8dd28133b083/pr_source.png/738x416.webp"
         },
         {
           title: "Jurassic World",
-          href: "https://magnetic-lowly-sodalite.glitch.me/jurassic%20world%201.html",
+          href: "https://matheonyx.github.io/Nesdy/jurassic%20world%201.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/76/16/46/76164681-31c5-eaaa-ce30-6c67be88c17b/126c5ba2-b351-4c55-a411-af20bcf984a2_JurassicWorld_3840x2160_intl_eng_keyart_full_digital_artwork_RGB_V1_sprk.png/738x416.webp"
         },
         {
