@@ -1660,7 +1660,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
          {
           title: "Echo Marvel Series",
-          href: "https://magnetic-lowly-sodalite.glitch.me/echo.html",
+          href: "https://matheonyx.github.io/Nesdy/echo.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/95E4A6493833AC585EB7861A7C254002A9CCD38B6847EC7349B4AEFDCDE15AA8/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
