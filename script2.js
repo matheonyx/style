@@ -1040,97 +1040,97 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Charlie et la chocolaterie Wonka",
-          href: "https://magnetic-lowly-sodalite.glitch.me/charlie%20et%20la%20chocolaterie.html",
+          href: "https://matheonyx.github.io/Nesdy/charlie%20et%20la%20chocolaterie.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/e5/92/c8/e592c8cc-37f5-d632-ff3f-8031c6091b68/CATCF_H_DD_KA_TT_3840x2160_300dpi_FR.lsr/738x416.webp"
         },
         {
           title: "Un Noel de Folie",
-          href: "https://magnetic-lowly-sodalite.glitch.me/un%20noel%20de%20folie.html",
+          href: "https://matheonyx.github.io/Nesdy/un%20noel%20de%20folie.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/089abfcaf5d35dcd671585bcaefd9912f6ea2f4b4407ddf26b0ee6ba447e3543.jpg"
         },
         {
           title: "La Fée Clochette et le Secret des Fées Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la%20fee%20clochette%20et%20le%20secret%20des%20fees.html.html",
+          href: "https://matheonyx.github.io/Nesdy/la%20fee%20clochette%20et%20le%20secret%20des%20fees.html.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8D18D6208A6C51C464FB3CABBF125D8D7D083015C8AC250C6EF4EF1D7D1FFF2D/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Coco Pixar Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Coco.html",
+          href: "https://matheonyx.github.io/Nesdy/Coco",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2E553D6F40BD31F6E3C05E96FA04BDB2DDA6D37B40FDBAC75C12364AE6631C7D/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Cendrillon Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/cendrillon.html",
+          href: "https://matheonyx.github.io/Nesdy/cendrillon.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EDDB29B7E08676D4C05ABBBBB2A493EAA822CE44013211F6565DC2D58320DC7F/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Walt Disney Studios",
-          href: "https://chisel-calico-tent.glitch.me/Walt%20Disney%20Studios.html",
+          href: "https://matheonyx.github.io/Nesdy/Walt%20Disney%20Collection.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6325B69DA9F443F25EAE6C90ADEA67B0BB3A8B061D0505290A40FF1A50942E2A/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Wonka Charlie et la Chocolaterie",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Wonka.html",
+          href: "https://matheonyx.github.io/Nesdy/Wonka.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/fe/db/89/fedb89a6-0fc4-99c8-9a8a-8aad0dfb0b2c/8b510417-50e6-43d5-98e0-a4fe1408c91e_WONKA_38.jpg/738x416.webp"
         },
         {
           title: "Wicked",
-          href: "https://magnetic-lowly-sodalite.glitch.me/wicked.html",
+          href: "https://matheonyx.github.io/Nesdy/wicked.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/e183d6999ac9b45d9d1f78072abd9ecccb345a6eed2c05445cd6b96b4ed927ee.jpg"
         },
         {
           title: "Wall-E Disney Pixar",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Wall-E.html",
+          href: "https://matheonyx.github.io/Nesdy/Wall-E",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(81).png?v=1722630958922"
         },
         {
           title: "Young Sheldon",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Young%20Sheldon.html",
+          href: "https://matheonyx.github.io/Nesdy/Young%20Sheldon.html",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Young%20Sheldon.png?v=1724059289380"
         },
         {
           title: "Ratatouille Pixar Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/ratatouille.html",
+          href: "https://matheonyx.github.io/Nesdy/ratatouille",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FEF6E538FB86E83A8E16B864FE54CDA6F5C2229A9EAD5995BA91664B3EF0CBC8/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Le Robot Sauvage Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/lerobotsauvage.html",
+          href: "https://matheonyx.github.io/Nesdy/lerobotsauvage.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/b2031e02cd4e3c2a73d2f7990fe27a2c68ee206772632476b23e544253392503.jpg"
         },
         {
           title: "Raya et le dernier dragon Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Raya%20et%20le%20dernier%20dragon.html",
+          href: "https://matheonyx.github.io/Nesdy/Raya%20et%20le%20dernier%20dragon.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F6EB96E2A692212EEEC6C4B49E866F5EF36BD8F578EF3B890C3A747F71EE9FAA/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Rox et Rouky Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Rox%20et%20Rouky.html",
+          href: "https://matheonyx.github.io/Nesdy/Rox%20et%20Rouky.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/71E2ABC21AB1F1CAFAD0D14764EC9040D1E90EF27F3ED359766D74B0A8BBD6CB/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "Robin des bois Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Robin%20des%20bois.html",
+          href: "https://matheonyx.github.io/Nesdy/Robin%20des%20bois.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/165700C69DDD3E7F2B1FAD8CC8B40967FB3C7F68B1C137F16395B2BCD754F941/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Red One",
-          href: "https://magnetic-lowly-sodalite.glitch.me/red%20one.html",
+          href: "https://matheonyx.github.io/Nesdy/red%20one.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/0c693fc07455ac22125f2305edbff2876a6c45effae36ce2f1f7b915ea265fc3.jpg"
         },
         {
           title: "Furiosa A Mad Max Story",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Furiosa.html",
+          href: "https://matheonyx.github.io/Nesdy/Furiosa",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/93542555d24e532f07400c14bfa98c95573189baacb7760b19e29ea643c8dd2c.jpg"
         },
         {
           title: "Frère des ours Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/frere%20des%20ours.html",
+          href: "https://matheonyx.github.io/Nesdy/frere%20des%20ours.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A5FAB32BAA2EBDB7967328CA1BAB1C7044CF155BE9F2E386314530CECE3D3D69/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Fantasia Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Fantasia.html",
+          href: "https://matheonyx.github.io/Nesdy/fantasia.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/30FDBDA5A036F885F4699F96238041A6836BB2A105267FACF55A9E1BF1C89E8A/scale?width=400&aspectRatio=1.78&format=jpeg"
         },
         {
@@ -1140,7 +1140,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Les Gremlins",
-          href: "https://magnetic-lowly-sodalite.glitch.me/gremlins.html",
+          href: "https://matheonyx.github.io/Nesdy/gremlins.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/5d/4a/c7/5d4ac744-febc-e1f5-c1a5-0bfc3d420496/pr_source.lsr/738x416.webp"
         },
         {
@@ -1155,37 +1155,37 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Gladiator 2",
-          href: "https://magnetic-lowly-sodalite.glitch.me/gladiator%202.html",
+          href: "https://matheonyx.github.io/Nesdy/gladiator%202.html",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/galdiator%202.png?v=1735855501557"
         },
         {
           title: "Sonic",
-          href: "https://magnetic-lowly-sodalite.glitch.me/sonic%20le%20film.html",
+          href: "https://matheonyx.github.io/Nesdy/sonic%20le%20film.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/6a/92/67/6a9267c7-ffd2-4b25-6c83-b9f7f746a18f/pr_source.lsr/738x416.webp"
         },
         {
           title: "Sonic 2",
-          href: "https://magnetic-lowly-sodalite.glitch.me/sonic2.html",
+          href: "https://matheonyx.github.io/Nesdy/sonic2.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video122/v4/d3/30/fc/d330fc73-e07d-d17f-0a0a-a272e24f2f12/pr_source.lsr/738x416.webp"
         },
         {
           title: "Sonic 3",
-          href: "https://magnetic-lowly-sodalite.glitch.me/sonic3.html",
+          href: "https://matheonyx.github.io/Nesdy/sonic3.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/c1/bf/30/c1bf302d-0af8-59d7-9aab-39d55cf2c76c/Sonic3_EN_3840x2160.png/738x416.webp"
         },
         {
           title: "Shrek Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/shrek.html",
+          href: "https://matheonyx.github.io/Nesdy/shrek.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/f0/dc/3c/f0dc3c0d-1952-14f7-acc0-00a2098a3a97/909738047-WW-AMP_SF.lsr/738x416.webp"
         },
         {
           title: "Shrek 2 Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/shrek%202.html",
+          href: "https://matheonyx.github.io/Nesdy/shrek%202.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/cb/76/a1/cb76a1a4-0907-c187-4825-c24a2a1a4fbf/57277274-28e5-44b0-b9ec-b5de05b9a7a7_Shrek2_3840x2160_INTL_ENG_keyart_full_digital_artwork_RGB_V1_sprk.lsr/738x416.webp"
         },
         {
           title: "Shrek 3 Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Shrek%203.html",
+          href: "https://matheonyx.github.io/Nesdy/Shrek%203.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/20/64/5a/20645a36-3d52-75c5-766d-be217474e7aa/UNI_SHREK_THE_THIRD_BE_FR_LU_ARTWORK_FR-FR_3840x2160_2CBL14000001TH.lsr/738x416.webp"
         },
         {
@@ -1195,22 +1195,22 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "The Super Mario Bros. Le Film Illumination",
-          href: "https://magnetic-lowly-sodalite.glitch.me/The%20Super%20Mario.html",
+          href: "https://matheonyx.github.io/Nesdy/The%20Super%20Mario",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(60).png?v=1721936040835"
         },
         {
           title: "Spider-Man Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/spiderman.html",
+          href: "https://matheonyx.github.io/Nesdy/spiderman.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/46/9b/a6/469ba6e9-8327-04d2-a2ff-dd2c6c410c8c/SPE_SPDRMN2002_FR_ARTWORK_FR-FR_3840x2160_1MQY5N000000ES.png/738x416.webp"
         },
         {
           title: "Spider-Man 2 Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/spiderman2.html",
+          href: "https://matheonyx.github.io/Nesdy/spiderman2.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/TTv9_JsmP9YMsWbt5ocVjQ/738x416.webp"
         },
         {
           title: "Spider-Man 3 Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/spiderman3.html",
+          href: "https://matheonyx.github.io/Nesdy/spiderman3.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/4d/60/70/4d60705a-5450-7bf1-10f2-b8707fdc8688/SPE_SPIDERMAN_3_FR_ARTWORK_EN_3840x2160_1MQSIS000000FV.png/738x416.webp"
         },
         {
@@ -1220,42 +1220,42 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "The Amazing Spider-Man 2 Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/theamazingspiderman2.html",
+          href: "https://matheonyx.github.io/Nesdy/theamazingspiderman2.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/af/05/de/af05deb3-0fb5-a53b-7804-13689a51b528/SPE_AMZS2_FR_ARTWORK_FR-FR_3840x2160_1MC554000000F5.png/738x416.webp"
         },
         {
           title: "Spider-Man: Homecoming Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/spider%20man%20homecoming.html",
+          href: "https://matheonyx.github.io/Nesdy/spider%20man%20homecoming",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(73).png?v=1722617940673"
         },
         {
           title: "Spider-Man: Far From Home Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/spider%20man%20far%20from%20home.html",
+          href: "https://matheonyx.github.io/Nesdy/spider%20man%20far%20from%20home",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/62/3b/0c/623b0ca5-cb4e-07b3-2eae-2c87861bd622/SPE_SPIDER-MAN_FAR_FROM_HOME_TH_FINAL_WW_ARTWORK_EN_3840x2160_1SN6S000000DEC.lsr/738x416.webp"
         },
         {
           title: "Spider-Man: No Way Home Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Spider-Man%20NWH.html",
+          href: "https://matheonyx.github.io/Nesdy/Spider-Man%20NWH",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/bd/c0/e2/bdc0e247-cfb7-934a-c004-9f294d12ebb4/SPE_SPIDERMAN_NO_WAY_HOME_TH_FR_ARTWORK_EN_3840x2160_3358QV00000KFA.lsr/738x416.webp"
         },
         {
           title: "Spider-Man into the Spider-Verse Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/spider-man%20into%20the%20spider-verse.html",
+          href: "https://matheonyx.github.io/Nesdy/spider-man%20into%20the%20spider-verse.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/27/ad/01/27ad01d0-5b9a-dcd0-e75a-3594b986e2a5/SPE_SPINSW_TH_FR_FR_ARTWORK_FR-FR_EN_3840x2160_1QUWH9000000D6.lsr/738x416.webp"
         },
         {
           title: "Spider-Man: Across the Spider-Verse Marvel",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Spider%20Man%20across%20the%20spider%20verse.html",
+          href: "https://matheonyx.github.io/Nesdy/Spider%20Man%20across%20the%20spider%20verse.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/7_wUTZFOnnT9gt-3DRsAcw/738x416.webp"
         },
         {
           title: "Shazam: La Rage des dieux",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Shazam%20La%20Rage%20des%20Dieux.html",
+          href: "https://matheonyx.github.io/Nesdy/Shazam%20La%20Rage%20des%20Dieux.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/99c08df98295f1ff32b439a2b93f27358a12e7fb0473f9141d32c5376b63a314.jpg"
         },
         {
           title: "Star Wars Collection",
-          href: "https://chisel-calico-tent.glitch.me/star%20wars%20page.html",
+          href: "https://matheonyx.github.io/Nesdy/Star%20Wars%20Page",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/f3/df/df/f3dfdf99-50d4-e8c2-08ec-c8599fb55637/mza_675323467412586151.png/738x416.webp"
         },
         {
