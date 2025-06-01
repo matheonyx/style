@@ -455,12 +455,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Mad Max Fury of Road",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Mad%20Max%20Fury%20of%20Road.html",
+          href: "https://matheonyx.github.io/Nesdy/Mad%20Max%20Fury%20of%20Road.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/6p4d1M6t2DAOWLgrV6wb4g/738x416.webp"
         },
         {
           title: "Madagascar Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Madagascar.html",
+          href: "https://matheonyx.github.io/Nesdy/Madagascar.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/85/a8/f8/85a8f8fc-122e-7209-6325-d46148ee562c/2e7d6ebe-3ff8-46ef-95aa-65f8549d08d8_Madagascar_3840x2160_intl_eng_keyart_full_digital_artwork_RGB_V1_sprk.lsr/738x416.webp"
         },
         {
@@ -470,7 +470,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Madagascar 3 Dreamworks",
-          href: "https://magnetic-lowly-sodalite.glitch.me/madagascar%203.html",
+          href: "madagascar 3.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/8z8cz4--lK2dds06wWESsQ/738x416.webp"
         },
         {
@@ -505,57 +505,57 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Monstres et Compagnie Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/monstres%20et%20cie.html",
+          href: "https://matheonyx.github.io/Nesdy/monstres%20et%20cie.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AB1FAAAD1221B6176EDE44889A98DCA0B5884EF43A22DBF303D75E893C9F5E47/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Mickey il était une fois noel Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/mickey%20once%20upon%20a%20Christmas.html",
+          href: "https://matheonyx.github.io/Nesdy/mickey%20once%20upon%20a%20Christmas.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/51EEA7BDB8CE64B637572C55F1B2F51F9625B96082B3ACD6E7B61DAC6879309B/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Meet me next christmas",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Meet%20me%20next%20christmas.html",
+          href: "https://matheonyx.github.io/Nesdy/Meet%20me%20next%20christmas.html",
           imgSrc: "https://image.tmdb.org/t/p/original/8W12TIAKqYrKfoFANX1Si5os907.jpg"
         },
         {
           title: "Men in black",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Men%20in%20Black.html",
+          href: "https://matheonyx.github.io/Nesdy/Men%20in%20Black.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/JMOeIRCCxXLu6WIQOG-EtA/738x416.webp"
         },
         {
           title: "Men in Black 2",
-          href: "https://magnetic-lowly-sodalite.glitch.me/men%20in%20black%202.html",
+          href: "https://matheonyx.github.io/Nesdy/men%20in%20black%202.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/88d1c27b6b2661968e56dc284b7735ddb4f98d582f35f68f359faad5403b819a.jpg"
         },
         {
           title: "Merlin l'enchanteur Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/merlin%20l'enchanteur.html",
+          href: "https://matheonyx.github.io/Nesdy/merlin%20l'enchanteur.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5EE10C38D6C621CE8ED828CAEE1EC03737182C8D02B77CB6519D1C9BF35A2DD0/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Mulan Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/muland.html",
+          href: "https://matheonyx.github.io/Nesdy/muland.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5CC71381475B1D6B746FD14DF999893D27ACB8CCDE009674894AABF60F667854/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Mulan 2 Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Mulan2.html",
+          href: "https://matheonyx.github.io/Nesdy/Mulan2.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8A93CF7EB56145A72CF72A1F38B06C672F6830E03CDBB2C581CC61FFA546AE78/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Mickey de l'autre coté du miroir Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/mickey%20de%20l'autre%20cote%20du%20miroir.html",
+          href: "https://matheonyx.github.io/Nesdy/mickey%20de%20l'autre%20cote%20du%20miroir.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9CF8D75B8A05855E122C48AF5637FA675E1C8713A255AE53B718CCB2CB69C7D9/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Mickey constructeurs de bateaux Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/mickey%20constructeur%20e%20bateau.html",
+          href: "https://matheonyx.github.io/Nesdy/mickey%20constructeur%20e%20bateau.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/ABED554D5E9A812FB7B3DFBD13F58BBE4DBAC05D0B8ABFB07D2CBA827696FFAE/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Matrix",
-          href: "https://magnetic-lowly-sodalite.glitch.me/the%20matrix.html",
+          href: "https://matheonyx.github.io/Nesdy/the%20matrix.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/86f4ace04af19c42a8748bb8da3ccf3ab2486499892aeba1fc58376ac4a4bf62.jpg"
         },
         {
@@ -575,12 +575,12 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Le roi lion Mufasa Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/The%20Lion%20King.html",
+          href: "The Lion King.html",
           imgSrc: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/Design%20sans%20titre%20(83).png?v=1722680377688"
         },
         {
           title: "Mufasa Le roi lion Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/mufasa.html",
+          href: "https://matheonyx.github.io/Nesdy/mufasa",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A5452BCDD705B92808889C51ECA4C93F5082FA2805AC51C00E67BE28864B681A/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
@@ -590,17 +590,17 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Prey Predator",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Prey.html",
+          href: "https://matheonyx.github.io/Nesdy/Prey.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/lqz-EwOJVkljLezrvxCDTw/738x416.webp"
         },
         {
           title: "Predators Prey",
-          href: "https://magnetic-lowly-sodalite.glitch.me/predators.html",
+          href: "https://matheonyx.github.io/Nesdy/predators.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/JnRqfUodh-xnRWrHDYUYrQ/738x416.webp"
         },
         {
           title: "Predators Requiem Prey",
-          href: "https://magnetic-lowly-sodalite.glitch.me/alien%20vs%20predators%20requiem.html",
+          href: "https://matheonyx.github.io/Nesdy/alien%20vs%20predators%20requiem.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/bP0BxjWLTZMnx7d7tBo6yg/738x416.webp"
         },
         {
@@ -615,7 +615,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
          {
           title: "The Predator prey",
-          href: "https://magnetic-lowly-sodalite.glitch.me/the%20predator.html",
+          href: "https://matheonyx.github.io/Nesdy/the%20predator.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/789D4954C96BD6E3A068C44C7C20A47D55A1D4CA70D7FC90237B8A11F093BECF/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
@@ -625,42 +625,42 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Percy Jackson et les Olympiens",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Percy%20Jackson%20et%20les%20olympeins.html",
+          href: "Percy Jackson et les olympeins.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F8B9D70BEC09BAA4FD529700C8163A6A38FB7FACECEBAB1D42104D60E1C03F77/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "Peter Pan Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/peter%20pan.html",
+          href: "https://matheonyx.github.io/Nesdy/peter%20pan.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A493675734794E0DD2563A1595988F35F3152BB7062DA6F854515830B702873A/scale?width=1200&aspectRatio=1.78&format=webp"
         }, 
         {
           title: "Planes Disney",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Plane.html",
+          href: "https://matheonyx.github.io/Nesdy/Plane.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F19FB4253414CFD9AD6ED65D6EA268B1BFDBAFBE7A4CDF89668DC38BF15A1FB9/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "La Petite Sirène",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la%20petite%20sir%C3%A8ne.html",
+          href: "https://matheonyx.github.io/Nesdy/la%20petite%20sir%C3%A8ne.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/88145EA61ED29BDFBF5AEEE8D121F9B8110125F2CFD352AAB835BDB311257722/scale?width=1200&aspectRatio=1.78&format=jpeg"
         },
         {
           title: "La Planète des Singes : Les Origines",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la%20planete%20des%20singes%20les%20origines.html",
+          href: "https://matheonyx.github.io/Nesdy/la%20planete%20des%20singes%20les%20origines.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DD7DC17CC47E4EF8FAC3E030AD5B7B99B4FCB7E7FEBD06D8287288A6FAF0D1BF/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "La Planète des Singes : L'Affrontement",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la%20planete%20des%20singes%20l'affrontement.html",
+          href: "https://matheonyx.github.io/Nesdy/la%20planete%20des%20singes%20l'affrontement.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/780C6D8A71E8F00CFAE52DA1B135BC3BAC21640CA1A3882072B4E2EA49F3FD5A/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "La Planète des Singes : Suprématie",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la%20planete%20des%20singes%20suprematie.html",
+          href: "https://matheonyx.github.io/Nesdy/la%20planete%20des%20singes%20suprematie.html",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/054402A20C849E90B24B906D08D68026CF8DA6882B8A844BEDA2A79DAEFEAB50/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
           title: "La Planète des Singes : Le Nouveau Royaume",
-          href: "https://magnetic-lowly-sodalite.glitch.me/kingdom%20of%20the%20planet%20of%20the%20apes.html",
+          href: "https://matheonyx.github.io/Nesdy/kingdom%20of%20the%20planet%20of%20the%20apes",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/63FCA40AF04C3384CBDCEB6BBF5C5C8DB51147644143278DDA007E4816AFFF00/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
