@@ -1665,7 +1665,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Loki Marvel Series",
-          href: "https://magnetic-lowly-sodalite.glitch.me/Loki.html",
+          href: "https://matheonyx.github.io/Nesdy/Loki",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B99CDCF9F5FFA8E982E5D46526543600B8C828FE4C20E3D02F4C4AF21A90E628/scale?width=1200&aspectRatio=1.78&format=webp"
         },
         {
