@@ -1675,7 +1675,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Lilo et Stitch Disney Live Action",
-          href: "file:///C:/Users/mathe/Desktop/Disneyplusplus/app/Daredevil.html",
+          href: "https://matheonyx.github.io/Nesdy/Lilo%20et%20Stitch%20Live%20Action%20p",
           imgSrc: "https://cdn.glitch.global/b5e38bca-811c-495c-aa28-c13540ae7e7b/Lilo%20et%20Stitch.png?v=1747854340076"
         },
     
