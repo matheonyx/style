@@ -3,68 +3,67 @@
     justify-content: center;
     align-items: center;
     background: #0f0f0f;
-    padding: 20px 0;
+    padding: 12px 0;
     margin: 0;
     width: 100%;
-    perspective: 3500px;
+    perspective: 2100px;
     overflow: hidden;
 }
 .door-container {
     position: relative;
-    width: 800px;
-    height: 1000px;
+    width: 480px;
+    height: 600px;
     transform-style: preserve-3d;
     background: #0f0f0f;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
 }
 .background-portal {
     position: absolute;
-    width: 500px;
-    height: 800px;
-    top: 100px;
-    left: 150px;
-    background: radial-gradient(circle at center, rgba(255, 0, 0, 0.9), rgba(5, 5, 5, 1));
-    box-shadow: inset 0 0 260px rgba(255, 0, 0, 1), 0 0 200px rgba(255, 0, 0, 0.9);
+    width: 300px;
+    height: 480px;
+    top: 60px;
+    left: 90px;
+    background: radial-gradient(circle at center, rgba(230, 10, 10, 0.7), rgba(8, 8, 8, 1));
+    box-shadow: inset 0 0 120px rgba(255, 5, 5, 0.9), 0 0 84px rgba(255, 5, 5, 0.6);
     z-index: -2;
-    animation: portal-pulse 3s infinite alternate;
+    animation: portal-pulse 5s infinite alternate;
     overflow: hidden;
-    border-radius: 18px;
 }
 .background-portal::before {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="8" cy="8" r="5.5" fill="%230d0d0d" opacity="0.95"/><circle cx="42" cy="32" r="6" fill="%230d0d0d" opacity="0.95"/><circle cx="22" cy="62" r="5.5" fill="%230d0d0d" opacity="0.95"/><circle cx="58" cy="12" r="5" fill="%230d0d0d" opacity="0.95"/><circle cx="18" cy="52" r="6" fill="%230d0d0d" opacity="0.95"/><circle cx="68" cy="68" r="5" fill="%230d0d0d" opacity="0.95"/><circle cx="32" cy="22" r="5.5" fill="%230d0d0d" opacity="0.95"/></svg>') repeat;
-    animation: ash-swirl 4s infinite linear;
-    opacity: 0.95;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="10" cy="10" r="3.6" fill="%23151515" opacity="0.9"/><circle cx="50" cy="40" r="3.3" fill="%23151515" opacity="0.9"/><circle cx="30" cy="70" r="3.9" fill="%23151515" opacity="0.9"/><circle cx="65" cy="15" r="3" fill="%23151515" opacity="0.9"/><circle cx="20" cy="60" r="3.3" fill="%23151515" opacity="0.9"/><circle cx="75" cy="75" r="2.7" fill="%23151515" opacity="0.9"/></svg>') repeat;
+    animation: ash-swirl 6s infinite linear;
+    opacity: 0.9;
 }
 .background-portal::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="none" stroke="%23ff0000" stroke-width="7" opacity="0.9"/><circle cx="50" cy="50" r="38" fill="none" stroke="%23ff0000" stroke-width="6" opacity="0.85"/><circle cx="50" cy="50" r="28" fill="none" stroke="%23ff0000" stroke-width="5" opacity="0.8"/><circle cx="50" cy="50" r="18" fill="none" stroke="%23ff0000" stroke-width="4" opacity="0.75"/><circle cx="50" cy="50" r="10" fill="none" stroke="%23ff0000" stroke-width="3" opacity="0.7"/></svg>') no-repeat center;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%23ff0505" stroke-width="2.4" d="M50 50c18 18 24 6 24-18c-18-18-24 6-24 18zM50 50c-18-18-24 6-24 18c18 18 24-6 24-18zM50 50c12 12 18 3 18-12c-12-12-18 3-18 12zM50 50c-12-12-18 3-18 12c12 12 18-3 18-12z"/></svg>') no-repeat center;
     background-size: 100%;
-    animation: vortex-swirl 4.5s infinite linear;
-    opacity: 0.9;
+    animation: vortex-swirl 8s infinite linear;
+    opacity: 0.8;
 }
 .portal-sparks {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="12" cy="12" r="2" fill="%23ff1515" opacity="0.9"/><circle cx="32" cy="32" r="1.8" fill="%23ff1515" opacity="0.9"/><circle cx="62" cy="22" r="2.2" fill="%23ff1515" opacity="0.9"/><circle cx="42" cy="52" r="1.8" fill="%23ff1515" opacity="0.9"/><circle cx="72" cy="62" r="2" fill="%23ff1515" opacity="0.9"/><circle cx="22" cy="42" r="2" fill="%23ff1515" opacity="0.9"/></svg>') repeat;
-    animation: spark-drift 2s infinite linear;
-    opacity: 0.9;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="15" cy="15" r="1.8" fill="%23ff4040" opacity="0.8"/><circle cx="35" cy="35" r="1.5" fill="%23ff4040" opacity="0.8"/><circle cx="65" cy="25" r="2.1" fill="%23ff4040" opacity="0.8"/><circle cx="45" cy="55" r="1.2" fill="%23ff4040" opacity="0.8"/><circle cx="80" cy="70" r="1.5" fill="%23ff4040" opacity="0.8"/></svg>') repeat;
+    animation: spark-drift 4s infinite linear;
+    opacity: 0.7;
 }
 .stone-frame {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><filter id="stone"><feTurbulence type="fractalNoise" baseFrequency="0.008" numOctaves="7" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="25"/><feColorMatrix type="matrix" values="0.35 0 0 0 0.18 0 0.35 0 0 0.18 0 0 0.35 0 0.18 0 0 0 1 0"/><feSpecularLighting result="spec" in="noise" surfaceScale="5" specularConstant="0.8" specularExponent="20"><fePointLight x="-50" y="-50" z="50"/></feSpecularLighting><feComposite in="SourceGraphic" in2="spec" operator="in"/></filter><rect width="100" height="100" fill="%23121212" filter="url(%23stone)"/></svg>') repeat;
-    border: 80px solid #0c0c0c;
-    border-radius: 35px;
-    box-shadow: inset 0 0 80px rgba(0, 0, 0, 1), 0 0 120px rgba(255, 10, 10, 0.6);
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><filter id="stone"><feTurbulence type="fractalNoise" baseFrequency="0.008" numOctaves="7" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="15"/><feColorMatrix type="matrix" values="0.35 0 0 0 0.18 0 0.35 0 0 0.18 0 0 0.35 0 0.18 0 0 0 1 0"/><feSpecularLighting result="spec" in="noise" surfaceScale="5" specularConstant="0.8" specularExponent="20"><fePointLight x="-50" y="-50" z="50"/></feSpecularLighting><feComposite in="SourceGraphic" in2="spec" operator="in"/></filter><rect width="100" height="100" fill="%23121212" filter="url(%23stone)"/></svg>') repeat;
+    border: 48px solid #0c0c0c;
+    border-radius: 21px;
+    box-shadow: inset 0 0 48px rgba(0, 0, 0, 1), 0 0 72px rgba(255, 10, 10, 0.6);
     z-index: 0;
 }
 .stone-frame::before {
@@ -72,7 +71,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%23ff0a0a" stroke-width="0.6" d="M8 8h84v84H8zM18 18h64v64H18zM28 28h44v44H28zM38 38h24v24H38z"/></svg>') repeat;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%23ff0a0a" stroke-width="0.36" d="M8 8h84v84H8zM18 18h64v64H18zM28 28h44v44H28zM38 38h24v24H38z"/></svg>') repeat;
     opacity: 0.6;
     animation: frame-glow 9s infinite alternate;
 }
@@ -80,40 +79,40 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%23060606" stroke-width="3.5" d="M8 8l35 45l-25 35m45-55l-35 45m40-40l-30 60"/></svg>') repeat;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%23060606" stroke-width="2.1" d="M8 8l21 27l-15 21m27-33l-21 27m24-24l-18 36"/></svg>') repeat;
     opacity: 0.8;
 }
 .door {
-    width: 500px;
-    height: 800px;
+    width: 300px;
+    height: 480px;
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect fill="%230e0e0e" width="100" height="100"/><path fill="%23151515" d="M0 0h100v100H0z" opacity="0.7"/></svg>') repeat, linear-gradient(135deg, #151515, #0e0e0e);
-    border: 30px solid #121212;
-    border-radius: 18px;
+    border: 18px solid #121212;
+    border-radius: 11px;
     position: absolute;
-    top: 100px;
-    left: 150px;
+    top: 60px;
+    left: 90px;
     transform-origin: left;
     transition: transform 7s ease-in-out, box-shadow 3s ease;
-    box-shadow: 0 0 80px rgba(0, 0, 0, 1), inset 0 0 60px rgba(255, 20, 20, 0.6);
+    box-shadow: 0 0 48px rgba(0, 0, 0, 1), inset 0 0 36px rgba(255, 20, 20, 0.6);
     z-index: 1;
 }
 .door.open {
     transform: rotateY(-140deg);
-    box-shadow: -80px 0 120px rgba(255, 20, 20, 0.8);
+    box-shadow: -48px 0 72px rgba(255, 20, 20, 0.8);
     animation: shake 0.9s ease-in-out;
 }
 .stone-texture {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><filter id="texture"><feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="6" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="15"/></filter><rect width="100" height="100" fill="%23121212" filter="url(%23texture)"/></svg>') repeat;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><filter id="texture"><feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="6" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="9"/></filter><rect width="100" height="100" fill="%23121212" filter="url(%23texture)"/></svg>') repeat;
     opacity: 0.9;
 }
 .runes {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%23ff1414" stroke-width="2.2" d="M20 8l25-10 25 10m-25-10v80m30-50h35m-70 0h35m-45 45l30 30m-30-30l30-30m45-35v70m-25-35h35m-60 45l25 25m-25-25l25-25"/></svg>') no-repeat center;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%23ff1414" stroke-width="1.3" d="M20 8l15-6 15 6m-15-6v48m18-30h21m-42 0h21m-27 27l18 18m-18-18l18-18m27-21v42m-15-21h21m-36 27l15 15m-15-15l15-15"/></svg>') no-repeat center;
     background-size: 90%;
     opacity: 1;
     animation: glow 6s infinite alternate;
@@ -122,30 +121,30 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%231a1a1a" stroke-width="8" d="M10 10c30 40 50 40 80 0m-80 80c30-40 50-40 80 0m-70-30h60m-60 60h60"/></svg>') repeat-y;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="none" stroke="%231a1a1a" stroke-width="4.8" d="M10 10c18 24 30 24 48 0m-48 48c18-24 30-24 48 0m-42-18h36m-36 36h36"/></svg>') repeat-y;
     background-size: 80%;
     opacity: 1;
 }
 .hinges {
     position: absolute;
-    left: -45px;
-    width: 40px;
-    height: 220px;
+    left: -27px;
+    width: 24px;
+    height: 132px;
     background: linear-gradient(90deg, #0e0e0e, #1a1a1a);
-    border-radius: 12px;
-    box-shadow: 0 0 40px rgba(255, 20, 20, 0.7);
+    border-radius: 7px;
+    box-shadow: 0 0 24px rgba(255, 20, 20, 0.7);
 }
 .hinge-top {
-    top: 160px;
+    top: 96px;
 }
 .hinge-bottom {
-    bottom: 160px;
+    bottom: 96px;
 }
 .flames {
     position: absolute;
-    bottom: -60px;
+    bottom: -36px;
     width: 100%;
-    height: 160px;
+    height: 96px;
     background: linear-gradient(transparent, rgba(255, 20, 20, 1), rgba(255, 100, 0, 0.9));
     animation: flicker 1.8s infinite alternate;
     opacity: 1;
@@ -154,7 +153,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="8" cy="8" r="5" fill="%231a1a1a"/><circle cx="35" cy="45" r="4.5" fill="%231a1a1a"/><circle cx="75" cy="15" r="5.5" fill="%231a1a1a"/><circle cx="55" cy="65" r="4" fill="%231a1a1a"/><circle cx="20" cy="80" r="5" fill="%231a1a1a"/></svg>') repeat;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="8" cy="8" r="3" fill="%231a1a1a"/><circle cx="35" cy="45" r="2.7" fill="%231a1a1a"/><circle cx="75" cy="15" r="3.3" fill="%231a1a1a"/><circle cx="55" cy="65" r="2.4" fill="%231a1a1a"/><circle cx="20" cy="80" r="3" fill="%231a1a1a"/></svg>') repeat;
     animation: ash-drift 4s infinite;
     opacity: 0;
 }
@@ -173,16 +172,16 @@
     opacity: 1;
 }
 @keyframes glow {
-    0% { opacity: 1; filter: drop-shadow(0 0 12px rgba(255, 20, 20, 0.9)); }
-    100% { opacity: 1; filter: drop-shadow(0 0 35px rgba(255, 20, 20, 1)); }
+    0% { opacity: 1; filter: drop-shadow(0 0 7px rgba(255, 20, 20, 0.9)); }
+    100% { opacity: 1; filter: drop-shadow(0 0 21px rgba(255, 20, 20, 1)); }
 }
 @keyframes frame-glow {
-    0% { opacity: 0.6; filter: drop-shadow(0 0 12px rgba(255, 10, 10, 0.8)); }
-    100% { opacity: 0.8; filter: drop-shadow(0 0 30px rgba(255, 10, 10, 1)); }
+    0% { opacity: 0.6; filter: drop-shadow(0 0 7px rgba(255, 10, 10, 0.8)); }
+    100% { opacity: 0.8; filter: drop-shadow(0 0 18px rgba(255, 10, 10, 1)); }
 }
 @keyframes portal-pulse {
-    0% { opacity: 0.9; box-shadow: inset 0 0 200px rgba(255, 0, 0, 0.9); }
-    100% { opacity: 1; box-shadow: inset 0 0 260px rgba(255, 0, 0, 1); }
+    0% { opacity: 0.9; box-shadow: inset 0 0 96px rgba(255, 5, 5, 0.8); }
+    100% { opacity: 1; box-shadow: inset 0 0 120px rgba(255, 5, 5, 1); }
 }
 @keyframes flicker {
     0% { transform: scaleY(1); opacity: 1; }
@@ -190,29 +189,29 @@
 }
 @keyframes smoke-drift {
     0% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(-300px); opacity: 0; }
+    100% { transform: translateY(-180px); opacity: 0; }
 }
 @keyframes ash-drift {
     0% { transform: translateY(0) rotate(0deg); opacity: 0.8; }
-    100% { transform: translateY(-250px) rotate(180deg); opacity: 0; }
+    100% { transform: translateY(-150px) rotate(180deg); opacity: 0; }
 }
 @keyframes ash-swirl {
-    0% { transform: translateY(0) rotate(0deg); opacity: 0.95; }
-    100% { transform: translateY(-400px) rotate(720deg); opacity: 0.7; }
+    0% { transform: translateY(0) rotate(0deg); opacity: 0.9; }
+    100% { transform: translateY(-180px) rotate(180deg); opacity: 0.6; }
 }
 @keyframes vortex-swirl {
-    0% { transform: rotate(0deg); opacity: 0.9; }
-    100% { transform: rotate(360deg); opacity: 0.8; }
+    0% { transform: rotate(0deg); opacity: 0.8; }
+    100% { transform: rotate(360deg); opacity: 0.6; }
 }
 @keyframes spark-drift {
-    0% { transform: translateY(0) rotate(0deg); opacity: 0.9; }
-    100% { transform: translateY(-350px) rotate(360deg); opacity: 0.6; }
+    0% { transform: translateY(0) rotate(0deg); opacity: 0.7; }
+    100% { transform: translateY(-150px) rotate(120deg); opacity: 0.4; }
 }
 @keyframes shake {
     0% { transform: translateX(0); }
-    20% { transform: translateX(-10px); }
-    40% { transform: translateX(10px); }
-    60% { transform: translateX(-10px); }
-    80% { transform: translateX(10px); }
+    20% { transform: translateX(-6px); }
+    40% { transform: translateX(6px); }
+    60% { transform: translateX(-6px); }
+    80% { transform: translateX(6px); }
     100% { transform: translateX(0); }
 }
