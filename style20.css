@@ -6,7 +6,7 @@
     padding: 12px 0;
     margin: 0;
     width: 100%;
-    perspective: 1100px;
+    perspective: 600px;
     overflow: hidden;
 }
 .door-container {
