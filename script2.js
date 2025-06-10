@@ -1678,6 +1678,11 @@ document.addEventListener("DOMContentLoaded", function() {
           href: "https://matheonyx.github.io/Nesdy/Lilo%20et%20Stitch%20Live%20Action%20p",
           imgSrc: "https://cdn.glitch.global/b5e38bca-811c-495c-aa28-c13540ae7e7b/Lilo%20et%20Stitch.png?v=1747854340076"
         },
+        {
+          title: "Rio",
+          href: "https://matheonyx.github.io/Nesdy/Rio",
+          imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6DFCAFD48557998FCC01344D53A8BFDAD710E6F85D828813F60185B97944F360/scale?width=1200&aspectRatio=1.78&format=webp"
+        },
     
     
     
