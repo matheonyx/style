@@ -138,6 +138,11 @@ const videos = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/11/Lilo_%26_Stitch_2025_film_logo.png",
     link: "https://magnetic-lowly-sodalite.glitch.me/ce%20noel%20la.html"
   },
+  {
+    src: "https://cdn.glitch.me/b5e38bca-811c-495c-aa28-c13540ae7e7b/How%20to%20Train%20Your%20Dragon%20(2025)%20Trailer%20%20-%204K%20HDR%20%20%F0%9F%8E%9E%20Tekno3D%20Labs%20Software.mp4?v=1750576288575",
+    logo: "https://www.universalpictures.fr/tl_files/content/movies/httyd_liveaction/title.png",
+    link: "https://magnetic-lowly-sodalite.glitch.me/ce%20noel%20la.html"
+  },
 ];
 
 // --- Fonction de mélange (Fisher-Yates) ---
