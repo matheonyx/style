@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717; /* Entire background set to #171717 */
+}
+
+.container,
+.overlay,
+.footer-text,
+.meta-text {
+    transition: opacity 0.5s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    position: relative;
+}
+
+.logo-wrapper {
+    transform: scale(1);
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    display: block;
+    width: 150px; /* Size to ensure the logo is fully visible */
+    height: auto; /* Maintain aspect ratio */
+    fill: #ffffff; /* White color for the logo */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Darkening filter over entire page */
+    pointer-events: none; /* Allow interaction with elements below */
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    color: #808080; /* Gray color for "From" */
+    font-size: 16px;
+    font-family: 'Klaven Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 20px;
+}
+
+.meta-text {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.meta-text svg {
+    width: 60px;
+    height: 12px;
+    fill: url(#gradient); /* Apply gradient to Meta logo */
+}
+
+.meta-text defs linearGradient#gradient stop:nth-child(1) {
+    stop-color: #833ab4; /* Instagram-like gradient */
+}
+
+.meta-text defs linearGradient#gradient stop:nth-child(2) {
+    stop-color: #fd1d1d;
+}
+
+.meta-text defs linearGradient#gradient stop:nth-child(3) {
+    stop-color: #fcb045;
+}
