@@ -1683,6 +1683,11 @@ document.addEventListener("DOMContentLoaded", function() {
           href: "https://matheonyx.github.io/Nesdy/Rio",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6DFCAFD48557998FCC01344D53A8BFDAD710E6F85D828813F60185B97944F360/scale?width=1200&aspectRatio=1.78&format=webp"
         },
+        {
+          title: "Thunderbolts* Marvel",
+          href: "https://matheonyx.github.io/Nesdy/thunderbolt.html",
+          imgSrc: "https://cdn.glitch.global/aba06776-3d00-4213-9643-021321905a51/thunderbolt.png?v=1746222773518"
+        },
     
     
     
