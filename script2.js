@@ -690,18 +690,13 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
           title: "Jurassic Park II",
-          href: "https://magnetic-lowly-sodalite.glitch.me/la%20petite%20sir%C3%A8ne.html",
+          href: "https://matheonyx.github.io/Nesdy/le%20monde%20perdu%20jurassic%20park.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video112/v4/45/dd/ba/45ddba24-bfae-d045-7713-f270730bc6cb/pr_source.png/738x416.webp"
         },
         {
           title: "Jurassic Park III",
           href: "https://matheonyx.github.io/Nesdy/jurassic%20park%203.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video112/v4/5b/97/9e/5b979e7c-9a73-84ee-35f0-8dd28133b083/pr_source.png/738x416.webp"
-        },
-        {
-          title: "Jurassic World",
-          href: "https://matheonyx.github.io/Nesdy/jurassic%20world%201.html",
-          imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/76/16/46/76164681-31c5-eaaa-ce30-6c67be88c17b/126c5ba2-b351-4c55-a411-af20bcf984a2_JurassicWorld_3840x2160_intl_eng_keyart_full_digital_artwork_RGB_V1_sprk.png/738x416.webp"
         },
         {
           title: "Jurassic World",
