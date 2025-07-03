@@ -139,9 +139,9 @@ const videos = [
     link: "https://magnetic-lowly-sodalite.glitch.me/ce%20noel%20la.html"
   },
   {
-    src: "https://cdn.glitch.me/aba06776-3d00-4213-9643-021321905a51/Marvel%20Studios%20Thunderbolts_%20%20Final%20Trailer%20%204K%20HDR%20%20%F0%9F%8E%9E%20%20Video%20Enhance%20Studio%20AI%201.6.8.mp4?v=1747845624826",
-    logo: "https://cdn.glitch.global/aba06776-3d00-4213-9643-021321905a51/marvels-thunderbolts-2024-movies-marvel-cinematic-universe-3840x1080-8457-removebg-preview%20(2).png?v=1747846345527",
-    link: "https://matheonyx.github.io/Nesdy/thunderbolt.html"
+    src: "https://cdn.glitch.me/aba06776-3d00-4213-9643-021321905a51/Jurassic%20World%20Rebirth%20(2025)%20%204K%20HDR%20Official%20Trailer%20%202%20%F0%9F%8E%9E%20%20Video%20Enhance%20Studio%20AI%201.7.7.mp4?v=1751560613020",
+    logo: "https://www.universalpictures.fr/tl_files/content/movies/jurassic_world_rebirth/title.png",
+    link: "https://matheonyx.github.io/Nesdy/Jurassic%20World:%20Renaissance.html"
   },
 ];
 
