@@ -124,11 +124,6 @@ const videos = [
     link: "https://matheonyx.github.io/Nesdy/venom3"
   },
   {
-    src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/CE%20NO%C3%8BL-L%C3%80%20Bande%20Annonce%20VF%20(2024).mp4?v=1734081163116",
-    logo: "https://cdn.glitch.global/dec50b52-1fc2-417a-80a4-dfe25959cc90/AAAABXRtb7xRHU-zjpWqVfR2qCSL4hZ4ljbp2MaJRYkQts1xwvdsBRGIQAV7UF55AHUKHQaxbU4_Nm_M-yiBFnTyRp4xAgEs1amwlfXd-6u77VNBWZcbrvXRk_LYQkx-XYYXB8V-Jfa2ESRY3tbFCxF60bAhTgewKzrFcCAsBpidpFo7ATSOSz0mMw.png?v=1734081240324",
-    link: "https://magnetic-lowly-sodalite.glitch.me/ce%20noel%20la.html"
-  },
-  {
     src: "https://cdn.glitch.me/aba06776-3d00-4213-9643-021321905a51/TRON%20Ares%20%20Official%20Trailer%20%231%20(4K%2060FPS)%202025.mp4?v=1746106728097",
     logo: "https://lumiere-a.akamaihd.net/v1/images/pp_disneymovies_tronares_logo_9985bef0.png",
     link: "https://magnetic-lowly-sodalite.glitch.me/ce%20noel%20la.html"
@@ -142,6 +137,11 @@ const videos = [
     src: "https://cdn.glitch.me/b5e38bca-811c-495c-aa28-c13540ae7e7b/How%20to%20Train%20Your%20Dragon%20(2025)%20Trailer%20%20-%204K%20HDR%20%20%F0%9F%8E%9E%20Tekno3D%20Labs%20Software.mp4?v=1750576288575",
     logo: "https://www.universalpictures.fr/tl_files/content/movies/httyd_liveaction/title.png",
     link: "https://magnetic-lowly-sodalite.glitch.me/ce%20noel%20la.html"
+  },
+  {
+    src: "https://cdn.glitch.me/aba06776-3d00-4213-9643-021321905a51/Marvel%20Studios%20Thunderbolts_%20%20Final%20Trailer%20%204K%20HDR%20%20%F0%9F%8E%9E%20%20Video%20Enhance%20Studio%20AI%201.6.8.mp4?v=1747845624826",
+    logo: "https://cdn.glitch.global/aba06776-3d00-4213-9643-021321905a51/marvels-thunderbolts-2024-movies-marvel-cinematic-universe-3840x1080-8457-removebg-preview%20(2).png?v=1747846345527",
+    link: "https://matheonyx.github.io/Nesdy/thunderbolt.html"
   },
 ];
 
