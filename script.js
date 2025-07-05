@@ -86,7 +86,7 @@ const videos = [
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Mufasa%20The%20Lion%20King%20%5B4K%2060FPS%5D.mp4?v=1739909058618",
     logo: "https://lumiere-a.akamaihd.net/v1/images/pp_mufasathelionking_logo_791_92c8ead1.png",
-    link: "https://magnetic-lowly-sodalite.glitch.me/mufasa.html"
+    link: "https://matheonyx.github.io/Nesdy/mufasa"
   },
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Dune%20Part%20Two%20%20%20Paul%20Atreides%20Rides%20A%20Sandworm%20%20ClipZone%20High%20Octane%20Hits.mp4?v=1729579726280",
@@ -96,7 +96,7 @@ const videos = [
   {
     src: "https://www.universalpictures.fr/tl_files/content/hero/kfp4_trailer.mp4",
     logo: "https://www.universalpictures.fr/tl_files/content/movies/kung_fu_panda_4/title.png",
-    link: "https://magnetic-lowly-sodalite.glitch.me/Kung%20Fu%20Panda%204.html"
+    link: "https://matheonyx.github.io/Nesdy/Kung%20Fu%20Panda%204"
   },
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/%5B4K60FPS%5D%20Star%20Wars%20Episode%20IX%20-%20The%20Rise%20of%20Skywalker%20%202019.mp4?v=1740513443454",
@@ -106,7 +106,7 @@ const videos = [
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Puss%20in%20Boots%20The%20Last%20Wish%20%20Trailer%20%231%20(4K%2060FPS)%202022.mp4?v=1740564264356",
     logo: "https://thumb.canalplus.pro/http/unsafe/760x428/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/unit/20843027/canal-ouah/TITLELOGO/myCANAL_Logo_Fiche_Programme_1920x1080",
-    link: "https://magnetic-lowly-sodalite.glitch.me/puss%20in%20boots%202.html"
+    link: "https://matheonyx.github.io/Nesdy/puss%20in%20boots%202.html"
   },
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Vice-Versa%202%20-%20Bande-annonce%20officielle%20%20Disney.mp4?v=1724172514368",
@@ -116,7 +116,7 @@ const videos = [
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/%E3%80%904K%2060FPS%20HDR%E3%80%91New%20Trailer%20%EF%BD%9C%20Sonic%20The%20Hedgehog%203.mp4?v=1740516618385",
     logo: "https://i.redd.it/ovtv06o2i2u81.png",
-    link: "https://magnetic-lowly-sodalite.glitch.me/sonic3.html"
+    link: "https://matheonyx.github.io/Nesdy/sonic3.html"
   },
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/MORTAL%20KOMBAT%20Trailer%20%231%20(4K%20ULTRA%20HD%2060FPS)%20NEW%202021.mp4?v=1733654744535",
@@ -131,7 +131,7 @@ const videos = [
   {
     src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/LILO%20%26%20STITCH%202025%20-%20Trailer%204K%20Ultra%20HD%2060FPS.mp4?v=1742120580444",
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/11/Lilo_%26_Stitch_2025_film_logo.png",
-    link: "https://magnetic-lowly-sodalite.glitch.me/ce%20noel%20la.html"
+    link: "https://matheonyx.github.io/Nesdy/Lilo%20et%20Stitch%20Live%20Action%20p"
   },
   {
     src: "https://cdn.glitch.me/b5e38bca-811c-495c-aa28-c13540ae7e7b/How%20to%20Train%20Your%20Dragon%20(2025)%20Trailer%20%20-%204K%20HDR%20%20%F0%9F%8E%9E%20Tekno3D%20Labs%20Software.mp4?v=1750576288575",
