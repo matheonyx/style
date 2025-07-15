@@ -157,6 +157,11 @@ document.addEventListener("DOMContentLoaded", function() {
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/66/5e/a2/665ea2c0-5199-bbf4-9d6e-fb517ade2eec/10A86_FR_HowToTrainYourDragon_TheHiddenWorld_3840x2160.lsr/738x416.webp"
         },
         {
+          title: "Dragons Dreamworks Live Action",
+          href: "https://matheonyx.github.io/Nesdy/how%20to%20train%20your%20dragon%20movie.html",
+          imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/69c8d5346e3145dc7464f1c7896dc0e350a570e14f7c17eee9dc2f40b1abab88.jpg"
+        },
+        {
           title: "Walt Disney",
           href: "https://matheonyx.github.io/Nesdy/Walt%20Disney%20Page",
           imgSrc: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6325B69DA9F443F25EAE6C90ADEA67B0BB3A8B061D0505290A40FF1A50942E2A/scale?width=1200&aspectRatio=1.78&format=jpeg"
