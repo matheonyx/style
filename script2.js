@@ -1688,6 +1688,11 @@ document.addEventListener("DOMContentLoaded", function() {
           href: "https://matheonyx.github.io/Nesdy/thunderbolt.html",
           imgSrc: "https://cdn.glitch.global/aba06776-3d00-4213-9643-021321905a51/thunderbolt.png?v=1746222773518"
         },
+        {
+          title: "Fantastic Mr. Fox",
+          href: "https://matheonyx.github.io/Nesdy/Mr%20Fox.html",
+          imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/lphumhRcdG1dFzjX3654AA/1200x675.jpg"
+        },
     
     
     
