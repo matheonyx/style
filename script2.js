@@ -1693,6 +1693,11 @@ document.addEventListener("DOMContentLoaded", function() {
           href: "https://matheonyx.github.io/Nesdy/Mr%20Fox.html",
           imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/lphumhRcdG1dFzjX3654AA/1200x675.jpg"
         },
+        {
+          title: "Ballerina John Wick",
+          href: "https://matheonyx.github.io/Nesdy/ballerina.html",
+          imgSrc: "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/fc/e8/83/fce88325-555a-3777-9eb8-0bdd2a9d27f2/Ballerina_3840x2160.png/1200x675.jpg"
+        },
     
     
     
