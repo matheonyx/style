@@ -1,20 +1,18 @@
 .reels-initial-btn {
-  position: static; /* Fait partie du flux normal, donc scrollable */
-  margin-top: 100vh; /* Optionnel : permet de placer le bouton en bas de la première vue */
+  position: static; /* Dans le flux normal */
   display: flex;
   align-items: center;
   justify-content: center;
   width: 32px;
   height: 32px;
+  margin: 100vh auto 20px auto; /* le place en bas de l'écran au chargement */
   border: none;
   border-radius: 50%;
   background: #141414;
   cursor: pointer;
   padding: 0;
-  z-index: 2147483647;
+  z-index: 1; /* inutile de mettre un z-index géant ici */
   pointer-events: auto;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .reels-initial-btn svg {
