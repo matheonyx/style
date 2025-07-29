@@ -1,11 +1,12 @@
 .reels-initial-wrapper {
-  position: relative;
-  display: inline-block;
-  text-align: center;
+  position: absolute; /* Retire le conteneur du flux normal */
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto; /* Hauteur automatique pour éviter une grande zone vide */
+  height: 0; /* Hauteur à 0 pour ne pas prendre de place verticale */
   z-index: 9999999;
-  --reels-initial-btn-top: 95%; /* Bouton placé très bas */
+  pointer-events: none; /* Les clics passent à travers sauf pour le bouton */
+  --reels-initial-btn-top: 95%; /* Position du bouton très bas */
 }
 
 .reels-initial-btn {
@@ -24,7 +25,7 @@
   cursor: pointer;
   padding: 0;
   z-index: 9999999;
-  pointer-events: auto;
+  pointer-events: auto; /* Le bouton reste cliquable */
 }
 
 .reels-initial-btn svg {
