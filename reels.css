@@ -1,12 +1,8 @@
 .reels-initial-wrapper {
-  position: absolute; /* Retire le conteneur du flux normal */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 0; /* Hauteur à 0 pour ne pas prendre de place verticale */
-  z-index: 9999999;
-  pointer-events: none; /* Les clics passent à travers sauf pour le bouton */
-  --reels-initial-btn-top: 95%; /* Position du bouton très bas */
+  position: relative;
+  min-height: 100vh;
+  z-index: 2147483647;
+  --reels-initial-btn-top: 98%;
 }
 
 .reels-initial-btn {
@@ -24,8 +20,8 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 9999999;
-  pointer-events: auto; /* Le bouton reste cliquable */
+  z-index: 2147483647;
+  pointer-events: auto;
 }
 
 .reels-initial-btn svg {
@@ -47,7 +43,7 @@
   pointer-events: none;
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  z-index: 2147483647; /* Valeur maximale pour garantir la superposition */
+  z-index: 2147483647;
 }
 
 .reels-clone .reels-container {
@@ -302,13 +298,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 1600px; /* Menu plus grand */
+  max-width: 1600px;
   height: 100%;
-  max-height: 90vh; /* Hauteur augmentée */
+  max-height: 90vh;
   background: #222;
   border-radius: 16px;
   box-shadow: 0 0 30px rgba(255,255,255,0.4);
-  z-index: 2147483647; /* Valeur maximale pour être au-dessus de tout */
+  z-index: 2147483647;
   pointer-events: auto;
 }
 
