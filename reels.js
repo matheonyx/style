@@ -14,7 +14,7 @@
 
   function reelsToggleContent() {
     const content = document.getElementById('reels-content');
-    const initialBtn = document.querySelector('.reels-clone .reels-initial-btn');
+    const initialBtn = document.querySelector('.reels-initial-btn');
     content.classList.toggle('active');
     initialBtn.classList.toggle('hidden', content.classList.contains('active'));
     if (!content.classList.contains('active')) {
@@ -31,7 +31,7 @@
   function reelsCloseAll() {
     const menu = document.getElementById('reels-menu');
     const content = document.getElementById('reels-content');
-    const initialBtn = document.querySelector('.reels-clone .reels-initial-btn');
+    const initialBtn = document.querySelector('.reels-initial-btn');
     menu.classList.remove('active');
     content.classList.remove('active');
     initialBtn.classList.remove('hidden');
@@ -69,8 +69,8 @@
 
   document.addEventListener('click', function(event) {
     const menu = document.getElementById('reels-menu');
-    const menuToggleBtn = document.querySelector('.reels-clone .reels-menu-toggle-btn');
-    const closeBtn = document.querySelector('.reels-clone .reels-close-btn');
+    const menuToggleBtn = document.querySelector('.reels-menu-toggle-btn');
+    const closeBtn = document.querySelector('.reels-close-btn');
     if (menu.classList.contains('active') && 
         !menu.contains(event.target) && 
         !menuToggleBtn.contains(event.target) && 
