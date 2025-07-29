@@ -1,6 +1,6 @@
 .reels-initial-btn {
-  position: fixed; /* Fixe le bouton à l'écran */
-  bottom: 10px; /* Très bas sur la page */
+  position: absolute; /* Changé de fixed à absolute pour rester dans le flux */
+  bottom: 10px; /* Toujours en bas de la page au chargement */
   left: 50%;
   transform: translateX(-50%); /* Centré horizontalement */
   width: 32px;
