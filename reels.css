@@ -3,12 +3,14 @@
   display: inline-block;
   text-align: center;
   width: 100%;
-  z-index: 999999;
+  min-height: 100vh; /* Ensures the wrapper is tall enough for positioning */
+  z-index: 9999999;
+  --reels-initial-btn-top: 70%; /* Adjustable top position */
 }
 
 .reels-initial-btn {
   position: absolute;
-  top: 50%;
+  top: var(--reels-initial-btn-top);
   left: 50%;
   transform: translate(-50%, -50%);
   width: 32px;
@@ -21,7 +23,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 999999;
+  z-index: 9999999;
   pointer-events: auto;
 }
 
@@ -59,7 +61,7 @@
   border-radius: 0;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(255,255,255,0.1);
-  z-index: 999997;
+  z-index: 9999997;
   pointer-events: auto;
 }
 
@@ -94,7 +96,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 999998;
+  z-index: 9999998;
   pointer-events: auto;
 }
 
@@ -259,7 +261,7 @@
   border-radius: 8px;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-  z-index: 999998;
+  z-index: 9999998;
   pointer-events: auto;
 }
 
@@ -287,7 +289,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 999999;
+  z-index: 9999999;
   pointer-events: auto;
 }
 
@@ -298,13 +300,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   height: 100%;
-  max-height: 80vh;
+  max-height: 85vh;
   background: #222;
-  border-radius: 12px;
-  box-shadow: 0 0 25px rgba(255,255,255,0.3);
-  z-index: 999999;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(255,255,255,0.4);
+  z-index: 9999999;
   pointer-events: auto;
 }
 
@@ -326,7 +328,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 999999;
+  z-index: 9999999;
   pointer-events: auto;
 }
 
@@ -347,7 +349,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 999999;
+  z-index: 9999999;
   pointer-events: auto;
 }
 
