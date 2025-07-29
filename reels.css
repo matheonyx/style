@@ -4,7 +4,7 @@
   text-align: center;
   width: 100%;
   min-height: 100vh; /* Ensures the wrapper is tall enough for positioning */
-  z-index: 9999999;
+  z-index: 999999977777;
   --reels-initial-btn-top: 70%; /* Adjustable top position */
 }
 
@@ -23,7 +23,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 9999999;
+  z-index: 999999977777;
   pointer-events: auto;
 }
 
@@ -61,7 +61,7 @@
   border-radius: 0;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(255,255,255,0.1);
-  z-index: 9999997;
+  z-index: 99999977777777777;
   pointer-events: auto;
 }
 
@@ -96,7 +96,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 9999998;
+  z-index: 99999987777777777;
   pointer-events: auto;
 }
 
@@ -261,7 +261,7 @@
   border-radius: 8px;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-  z-index: 99999987;
+  z-index: 999999877777777;
   pointer-events: auto;
 }
 
@@ -289,7 +289,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 99999997;
+  z-index: 999999977777777;
   pointer-events: auto;
 }
 
@@ -306,7 +306,7 @@
   background: #222;
   border-radius: 16px;
   box-shadow: 0 0 30px rgba(255,255,255,0.4);
-  z-index: 99999997;
+  z-index: 9999999777777;
   pointer-events: auto;
 }
 
@@ -328,7 +328,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 99999997;
+  z-index: 999999977777777;
   pointer-events: auto;
 }
 
@@ -349,7 +349,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 9999999;
+  z-index: 9999997777777777779;
   pointer-events: auto;
 }
 
