@@ -1,8 +1,8 @@
 .reels-initial-btn {
-  position: fixed; /* Fixe le bouton à l'écran sans affecter le flux */
-  bottom: 20px; /* Position en bas, ajustable selon vos besoins */
+  position: fixed; /* Fixe le bouton à l'écran */
+  bottom: 10px; /* Très bas sur la page */
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); /* Centré horizontalement */
   width: 32px;
   height: 32px;
   border: none;
@@ -13,7 +13,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 2147483647; /* Toujours au-dessus de tout */
+  z-index: 2147483647; /* Toujours au-dessus */
   pointer-events: auto;
 }
 
