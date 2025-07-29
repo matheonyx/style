@@ -1,20 +1,20 @@
 .reels-initial-btn {
-  position: static; /* Changé de fixed à absolute pour rester dans le flux */
-  bottom: 10px; /* Toujours en bas de la page au chargement */
-  left: 50%;
-  transform: translateX(-50%); /* Centré horizontalement */
+  position: static; /* Fait partie du flux normal, donc scrollable */
+  margin-top: 100vh; /* Optionnel : permet de placer le bouton en bas de la première vue */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 32px;
   height: 32px;
   border: none;
   border-radius: 50%;
   background: #141414;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 2147483647; /* Toujours au-dessus */
+  z-index: 2147483647;
   pointer-events: auto;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .reels-initial-btn svg {
