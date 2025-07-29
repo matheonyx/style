@@ -1,17 +1,19 @@
 .reels-initial-btn {
-  position: static; /* Dans le flux normal */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative; /* scrollable, mais positionnable */
+  top: 0;             /* modifiable à volonté */
+  left: 0;
   width: 32px;
   height: 32px;
-  margin: 100vh auto 20px auto; /* le place en bas de l'écran au chargement */
+  margin: 20px auto; /* centré horizontalement */
   border: none;
   border-radius: 50%;
   background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 2147483647; /* inutile de mettre un z-index géant ici */
+  z-index: 2147483647; /* reste au-dessus de tout */
   pointer-events: auto;
 }
 
