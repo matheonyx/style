@@ -1,5 +1,5 @@
 .reels-initial-btn {
-  position: absolute; /* Changé de fixed à absolute pour rester dans le flux */
+  position: static; /* Changé de fixed à absolute pour rester dans le flux */
   bottom: 10px; /* Toujours en bas de la page au chargement */
   left: 50%;
   transform: translateX(-50%); /* Centré horizontalement */
