@@ -79,7 +79,6 @@
     }
   });
 
-  // Expose functions to global scope for HTML onclick attributes
   window.reelsToggleMute = reelsToggleMute;
   window.reelsToggleContent = reelsToggleContent;
   window.reelsToggleMenu = reelsToggleMenu;
