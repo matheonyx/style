@@ -1,26 +1,19 @@
-.reels-initial-wrapper {
-  position: relative;
-  min-height: 100vh;
-  z-index: 2147483647;
-  --reels-initial-btn-top: 500%;
-}
-
 .reels-initial-btn {
-  position: absolute;
-  top: var(--reels-initial-btn-top);
+  position: fixed; /* Fixe le bouton à l'écran sans affecter le flux */
+  bottom: 20px; /* Position en bas, ajustable selon vos besoins */
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   width: 32px;
   height: 32px;
   border: none;
   border-radius: 50%;
   background: #141414;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 2147483647;
+  z-index: 2147483647; /* Toujours au-dessus de tout */
   pointer-events: auto;
 }
 
