@@ -2,7 +2,7 @@
   position: relative;
   min-height: 100vh;
   z-index: 2147483647;
-  --reels-initial-btn-top: 98%;
+  --reels-initial-btn-top: 500%;
 }
 
 .reels-initial-btn {
