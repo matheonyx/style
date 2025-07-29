@@ -1,20 +1,28 @@
+.reels-initial-btn-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100px; /* hauteur définie pour contenir le bouton */
+  margin: 40px 0; /* espacement autour si nécessaire */
+  z-index: 2147483647;
+}
+
 .reels-initial-btn {
-  position: static; /* Fait partie du flux normal, donc scrollable */
-  margin-top: 100vh; /* Optionnel : permet de placer le bouton en bas de la première vue */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute; /* permet top/left */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 32px;
   height: 32px;
   border: none;
   border-radius: 50%;
   background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   padding: 0;
   z-index: 2147483647;
   pointer-events: auto;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .reels-initial-btn svg {
