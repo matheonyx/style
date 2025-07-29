@@ -261,10 +261,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   height: 100%;
-  max-height: 90vh;
+  max-height: 70vh;
   background: #222;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
   z-index: 9999;
   pointer-events: auto;
 }
@@ -323,7 +325,7 @@
 }
 
 .reels-clone .reels-initial-btn {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
