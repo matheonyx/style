@@ -3,9 +3,9 @@
   display: inline-block;
   text-align: center;
   width: 100%;
-  min-height: 100vh; /* Assure que le wrapper est assez grand */
-  z-index: 9999999; /* Gardé élevé pour le contexte initial */
-  --reels-initial-btn-top: 95%; /* Bouton placé très bas, presque au fond */
+  height: auto; /* Hauteur automatique pour éviter une grande zone vide */
+  z-index: 9999999;
+  --reels-initial-btn-top: 95%; /* Bouton placé très bas */
 }
 
 .reels-initial-btn {
@@ -46,7 +46,7 @@
   pointer-events: none;
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  z-index: 10000000; /* Contexte de superposition de base */
+  z-index: 2147483647; /* Valeur maximale pour garantir la superposition */
 }
 
 .reels-clone .reels-container {
@@ -62,7 +62,7 @@
   border-radius: 0;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(255,255,255,0.1);
-  z-index: 10000001;
+  z-index: 2147483647;
   pointer-events: auto;
 }
 
@@ -97,7 +97,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 10000002;
+  z-index: 2147483647;
   pointer-events: auto;
 }
 
@@ -262,7 +262,7 @@
   border-radius: 8px;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-  z-index: 10000002;
+  z-index: 2147483647;
   pointer-events: auto;
 }
 
@@ -290,24 +290,24 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 10000003;
+  z-index: 2147483647;
   pointer-events: auto;
 }
 
 .reels-clone .reels-menu {
   display: none;
   position: fixed;
-  top: 0; /* Positionné directement en haut par rapport au body */
-  left: 0; /* Aligné à gauche */
-  width: 100%; /* Pleine largeur */
-  height: 100%; /* Pleine hauteur */
-  max-width: 1400px; /* Largeur maximale conservée */
-  max-height: 85vh; /* Hauteur maximale conservée */
-  margin: 0 auto; /* Centré horizontalement */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1600px; /* Menu plus grand */
+  height: 100%;
+  max-height: 90vh; /* Hauteur augmentée */
   background: #222;
   border-radius: 16px;
   box-shadow: 0 0 30px rgba(255,255,255,0.4);
-  z-index: 2147483647; /* Valeur maximale pour z-index (limite des navigateurs) */
+  z-index: 2147483647; /* Valeur maximale pour être au-dessus de tout */
   pointer-events: auto;
 }
 
@@ -329,7 +329,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 2147483647; /* Même z-index maximal */
+  z-index: 2147483647;
   pointer-events: auto;
 }
 
@@ -350,7 +350,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 2147483647; /* Même z-index maximal */
+  z-index: 2147483647;
   pointer-events: auto;
 }
 
