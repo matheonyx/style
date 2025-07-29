@@ -1,16 +1,8 @@
-.reels-initial-btn-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100px; /* hauteur définie pour contenir le bouton */
-  margin: 40px 0; /* espacement autour si nécessaire */
-  z-index: 2147483647;
-}
-
 .reels-initial-btn {
-  position: absolute; /* permet top/left */
-  top: 0;
+  position: absolute; /* Changé de fixed à absolute pour rester dans le flux */
+  bottom: 10px; /* Toujours en bas de la page au chargement */
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); /* Centré horizontalement */
   width: 32px;
   height: 32px;
   border: none;
@@ -21,7 +13,7 @@
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  z-index: 2147483647;
+  z-index: 2147483647; /* Toujours au-dessus */
   pointer-events: auto;
 }
 
