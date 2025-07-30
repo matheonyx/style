@@ -1,5 +1,5 @@
 .reels-initial-btn-wrapper {
-  position: revert-layer;
+  position: fixed;
   width: 100%;
   height: 120px; /* augmente un peu pour plus de marge */
   margin: 80px 0; /* espacement vertical, plus bas */
@@ -34,7 +34,7 @@
 }
 
 .reels-clone {
-  position: fixed;
+  position: revert-layer;
   top: 0;
   left: 0;
   width: 100%;
