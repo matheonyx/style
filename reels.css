@@ -16,7 +16,7 @@
   border: none;
   border-radius: 50%;
   background: #141414;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   cursor: pointer;
