@@ -4,19 +4,17 @@
   height: 120px; /* augmente un peu pour plus de marge */
   margin: 80px 0; /* espacement vertical, plus bas */
   z-index: 2147483647;
+  display: flex; /* pour centrer le bouton */
+  justify-content: center; /* centre horizontalement */
 }
 
 .reels-initial-btn {
-  position: absolute;
-  top: 60px; /* décale le bouton vers le bas */
-  left: 50%;
-  transform: translateX(-50%);
   width: 32px;
   height: 32px;
   border: none;
   border-radius: 50%;
   background: #141414;
-  display: block;
+  display: flex; /* changement de block à flex pour alignement interne */
   align-items: center;
   justify-content: center;
   cursor: pointer;
