@@ -300,3 +300,20 @@
   display: block;
 }
 
+.reels-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2147483647;
+}
+
+.reels-close-btn svg {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+}
+
+
