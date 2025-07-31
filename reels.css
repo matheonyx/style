@@ -1,11 +1,10 @@
 .reels-initial-btn-wrapper {
-  position: fixed;
   width: 100%;
-  height: 120px; /* augmente un peu pour plus de marge */
-  margin: 80px 0; /* espacement vertical, plus bas */
+  margin-top: 150px; /* ajuste ici pour l'espacement vertical */
+  display: flex;
+  justify-content: center;
   z-index: 2147483647;
-  display: flex; /* pour centrer le bouton */
-  justify-content: center; /* centre horizontalement */
+  pointer-events: auto;
 }
 
 .reels-initial-btn {
@@ -14,7 +13,7 @@
   border: none;
   border-radius: 50%;
   background: #141414;
-  display: flex; /* changement de block à flex pour alignement interne */
+  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
