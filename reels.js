@@ -1,4 +1,4 @@
-(function() {
+(function () {
   function reelsToggleMute() {
     const vid = document.getElementById('reels-reelVideo');
     const muteIcon = document.getElementById('reels-muteIcon');
@@ -16,74 +16,11 @@
     const content = document.getElementById('reels-content');
     const initialBtn = document.querySelector('.reels-initial-btn');
     content.classList.toggle('active');
-    initialBtn.classList.toggle('hidden', content.classList.contains('active'));
-    if (!content.classList.contains('active')) {
-      reelsCloseMenu();
+    if (initialBtn) {
+      initialBtn.classList.toggle('hidden', content.classList.contains('active'));
     }
   }
-
-  function reelsToggleMenu(event) {
-    const menu = document.getElementById('reels-menu');
-    menu.classList.toggle('active');
-    event.stopPropagation();
-  }
-
-  function reelsCloseAll() {
-    const menu = document.getElementById('reels-menu');
-    const content = document.getElementById('reels-content');
-    const initialBtn = document.querySelector('.reels-initial-btn');
-    menu.classList.remove('active');
-    content.classList.remove('active');
-    initialBtn.classList.remove('hidden');
-  }
-
-  function reelsCloseMenu() {
-    const menu = document.getElementById('reels-menu');
-    menu.classList.remove('active');
-  }
-
-  function reelsToggleEmojiPicker() {
-    const emojiPicker = document.getElementById('reels-emojiPicker');
-    emojiPicker.classList.toggle('active');
-  }
-
-  function reelsAddEmoji(emoji) {
-    const commentInput = document.getElementById('reels-commentInput');
-    commentInput.value += emoji;
-    commentInput.focus();
-  }
-
-  function reelsSubmitComment() {
-    const commentInput = document.getElementById('reels-commentInput');
-    const commentText = commentInput.value.trim();
-    if (commentText) {
-      const commentsSection = document.getElementById('reels-comments');
-      const newComment = document.createElement('div');
-      newComment.className = 'reels-comment';
-      newComment.innerHTML = `<strong>Mathéo</strong> ${commentText}<span class="reels-timestamp">maintenant</span>`;
-      commentsSection.appendChild(newComment);
-      commentInput.value = '';
-      document.getElementById('reels-emojiPicker').classList.remove('active');
-    }
-  }
-
-  document.addEventListener('click', function(event) {
-    const menu = document.getElementById('reels-menu');
-    const menuToggleBtn = document.querySelector('.reels-menu-toggle-btn');
-    const closeBtn = document.querySelector('.reels-close-btn');
-    if (menu.classList.contains('active') && 
-        !menu.contains(event.target) && 
-        !menuToggleBtn.contains(event.target) && 
-        !closeBtn.contains(event.target)) {
-      reelsCloseAll();
-    }
-  });
 
   window.reelsToggleMute = reelsToggleMute;
   window.reelsToggleContent = reelsToggleContent;
-  window.reelsToggleMenu = reelsToggleMenu;
-  window.reelsCloseAll = reelsCloseAll;
-  window.reelsToggleEmojiPicker = reelsToggleEmojiPicker;
-  window.reelsAddEmoji = reelsAddEmoji;
-  window.reelsSubmitComment = reelsSubmitComment;
 })();
