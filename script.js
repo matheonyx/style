@@ -74,12 +74,12 @@ window.addEventListener("scroll", function() {
 // Nouveaux éléments vidéo et logo
 const videos = [
   {
-    src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/%E3%80%904K%2060FPS%20HDR%E3%80%91Trailer%20%EF%BD%9C%20Moana%202.mp4?v=1733514184057",
+    src: "https://github.com/matheonyx/style/releases/download/v1.0.0/4K.60FPS.HDR.Trailer.Moana.2.mp4",
     logo: "https://lumiere-a.akamaihd.net/v1/images/image_2fe2f467.png",
     link: "https://matheonyx.github.io/Nesdy/vaiana2"
   },
   {
-    src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Minions%20The%20Rise%20of%20Gru%20%20Official%20Trailer%20%202021.mp4?v=1740512944636",
+    src: "https://github.com/matheonyx/style/releases/download/v1.0.0/Minions.The.Rise.of.Gru.Official.Trailer.2021.mp4",
     logo: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Minions_-_The_Rise_of_Gru_logo.svg",
     link: "https://matheonyx.github.io/Nesdy/Minions%20Rise%20of%20Gru.html"
   },
@@ -99,7 +99,7 @@ const videos = [
     link: "https://matheonyx.github.io/Nesdy/Kung%20Fu%20Panda%204"
   },
   {
-    src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/%5B4K60FPS%5D%20Star%20Wars%20Episode%20IX%20-%20The%20Rise%20of%20Skywalker%20%202019.mp4?v=1740513443454",
+    src: "https://github.com/matheonyx/style/releases/download/v1.0.0/4K60FPS.Star.Wars.Episode.IX.-.The.Rise.of.Skywalker.2019.mp4",
     logo: "https://lumiere-a.akamaihd.net/v1/images/the-rise-of-skywalker-logo_3314d2cd.png?region=0,0,800,402",
     link: "https://matheonyx.github.io/Nesdy/star%20wars%20IX"
   },
@@ -114,7 +114,7 @@ const videos = [
     link: "https://matheonyx.github.io/Nesdy/vice%20versa%202.html"
   },
   {
-    src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/%E3%80%904K%2060FPS%20HDR%E3%80%91New%20Trailer%20%EF%BD%9C%20Sonic%20The%20Hedgehog%203.mp4?v=1740516618385",
+    src: "https://github.com/matheonyx/style/releases/download/v1.0.0/4K.60FPS.HDR.New.Trailer.Sonic.The.Hedgehog.3.mp4",
     logo: "https://i.redd.it/ovtv06o2i2u81.png",
     link: "https://matheonyx.github.io/Nesdy/sonic3.html"
   },
