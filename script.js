@@ -104,7 +104,7 @@ const videos = [
     link: "https://matheonyx.github.io/Nesdy/star%20wars%20IX"
   },
   {
-    src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Puss%20in%20Boots%20The%20Last%20Wish%20%20Trailer%20%231%20(4K%2060FPS)%202022.mp4?v=1740564264356",
+    src: "https://github.com/matheonyx/style/releases/download/v1.0.0/Puss.in.Boots.The.Last.Wish.Trailer.1.4K.60FPS.2022.mp4",
     logo: "https://thumb.canalplus.pro/http/unsafe/760x428/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/unit/20843027/canal-ouah/TITLELOGO/myCANAL_Logo_Fiche_Programme_1920x1080",
     link: "https://matheonyx.github.io/Nesdy/puss%20in%20boots%202.html"
   },
