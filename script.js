@@ -109,7 +109,7 @@ const videos = [
     link: "https://matheonyx.github.io/Nesdy/puss%20in%20boots%202.html"
   },
   {
-    src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/Vice-Versa%202%20-%20Bande-annonce%20officielle%20%20Disney.mp4?v=1724172514368",
+    src: "https://github.com/matheonyx/style/releases/download/v1.0.0/Vice-Versa.2.-.Bande-annonce.officielle.Disney.mp4",
     logo: "https://lumiere-a.akamaihd.net/v1/images/image_d55b2730.png",
     link: "https://matheonyx.github.io/Nesdy/vice%20versa%202.html"
   },
@@ -124,12 +124,12 @@ const videos = [
     link: "https://matheonyx.github.io/Nesdy/venom3"
   },
   {
-    src: "https://cdn.glitch.me/aba06776-3d00-4213-9643-021321905a51/TRON%20Ares%20%20Official%20Trailer%20%231%20(4K%2060FPS)%202025.mp4?v=1746106728097",
+    src: "https://github.com/matheonyx/style/releases/download/v1.0.0/TRON.Ares.Official.Trailer.1.4K.60FPS.2025.mp4",
     logo: "https://lumiere-a.akamaihd.net/v1/images/pp_disneymovies_tronares_logo_9985bef0.png",
     link: "https://magnetic-lowly-sodalite.glitch.me/ce%20noel%20la.html"
   },
   {
-    src: "https://cdn.glitch.me/dec50b52-1fc2-417a-80a4-dfe25959cc90/LILO%20%26%20STITCH%202025%20-%20Trailer%204K%20Ultra%20HD%2060FPS.mp4?v=1742120580444",
+    src: "https://github.com/matheonyx/style/releases/download/v1.0.0/LILO.STITCH.2025.-.Trailer.4K.Ultra.HD.60FPS.mp4",
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/11/Lilo_%26_Stitch_2025_film_logo.png",
     link: "https://matheonyx.github.io/Nesdy/Lilo%20et%20Stitch%20Live%20Action%20p"
   },
