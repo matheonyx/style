@@ -1708,6 +1708,11 @@ document.addEventListener("DOMContentLoaded", function() {
           href: "https://matheonyx.github.io/Nesdy/%C3%89l%C3%A9mentaire.html",
           imgSrc: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/3774bf10-dd9f-4e24-ad62-6bb360838e27/compose?aspectRatio=1.78&format=webp&width=1200"
         },
+        {
+          title: "Alien: Earth",
+          href: "https://matheonyx.github.io/Nesdy/Alien%20%20Earth.html",
+          imgSrc: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/150488d8-78ee-4da8-ab83-0a3def4add71/compose?aspectRatio=1.78&format=webp&width=1200"
+        },
     
     
     
