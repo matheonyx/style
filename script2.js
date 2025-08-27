@@ -1703,6 +1703,11 @@ document.addEventListener("DOMContentLoaded", function() {
           href: "https://matheonyx.github.io/Nesdy/Smurfs.html",
           imgSrc: "https://www.journaldugeek.com/app/uploads/2025/07/schtroumpfs-1600x900.jpg"
         },
+        {
+          title: "Élémentaire Elemental Pixar Disney",
+          href: "https://matheonyx.github.io/Nesdy/%C3%89l%C3%A9mentaire.html",
+          imgSrc: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/3774bf10-dd9f-4e24-ad62-6bb360838e27/compose?aspectRatio=1.78&format=webp&width=1200"
+        },
     
     
     
