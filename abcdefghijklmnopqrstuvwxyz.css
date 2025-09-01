@@ -54,6 +54,7 @@
   float: left;
   height: 100%;
   min-height: 1px;
+  touch-action: pan-y;
 }
 [dir=rtl] .slick-slide {
   float: right;
@@ -133,10 +134,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .slick-prev {
-  left: -10px;
+  left: -15px;
 }
 [dir=rtl] .slick-prev {
-  right: -10px;
+  right: -15px;
   left: auto;
 }
 .slick-prev:before {
@@ -146,11 +147,11 @@
   content: "→";
 }
 .slick-next {
-  right: -10px;
+  right: -15px;
 }
 [dir=rtl] .slick-next {
   right: auto;
-  left: -10px;
+  left: -15px;
 }
 .slick-next:before {
   content: "→";
