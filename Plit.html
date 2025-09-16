@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plit. – Actualités</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #171717;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #ffffff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px;
+      border-bottom: 1px solid #333;
+    }
+    .logo {
+      width: 100px;
+      height: auto;
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .location {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      gap: 8px;
+      cursor: pointer;
+    }
+    .location svg {
+      width: 18px;
+      height: 18px;
+      fill: #ffffff;
+    }
+    nav {
+      font-size: 24px;
+      cursor: pointer;
+    }
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .hero img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      box-shadow: 0 0 60px 20px rgba(255, 200, 150, 0.4);
+      display: block;
+    }
+    .tag {
+      display: inline-block;
+      background-color: #ffff00;
+      color: #000;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .hero h1 {
+      font-size: 1.8rem;
+      line-height: 1.3;
+      margin-bottom: 16px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .articles {
+      margin-top: 40px;
+    }
+    .articles-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .articles-header h2 {
+      font-size: 1.4rem;
+      margin: 0;
+    }
+    .articles-header a {
+      border: 1px solid #fff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .article-card {
+      display: flex;
+      background-color: #222;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+    .article-card img {
+      width: 40%;
+      object-fit: cover;
+    }
+    .article-content {
+      padding: 12px;
+      flex: 1;
+    }
+    .article-tag {
+      background-color: #3b82f6;
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-bottom: 8px;
+    }
+    .article-content h3 {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+
+    /* Bouton flottant */
+    .floating-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 56px;
+      height: 56px;
+      background-color: #171717;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      z-index: 1000;
+    }
+    .floating-btn:hover {
+      transform: scale(1.1);
+    }
+    .floating-btn svg {
+      width: 28px;
+      height: 28px;
+      fill: #ffffff;
+    }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.85);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+    .modal-content {
+      background: #171717;
+      padding: 20px;
+      border-radius: 16px;
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
+      animation: fadeIn 0.3s ease;
+    }
+    @keyframes fadeIn {
+      from { transform: scale(0.9); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    .modal-content h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      margin-bottom: 16px;
+    }
+    .modal-content input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 8px;
+      background: #222;
+      color: #fff;
+      margin-bottom: 16px;
+      font-size: 14px;
+    }
+    .city-list {
+      max-height: 220px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .city {
+      padding: 12px;
+      cursor: pointer;
+      border-radius: 10px;
+      background: #222;
+      transition: background 0.2s ease;
+      font-weight: bold;
+    }
+    .city:hover {
+      background: #333;
+    }
+    .suggestion {
+      padding: 12px;
+      border-radius: 10px;
+      background: #3b82f6;
+      color: #fff;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .suggestion:hover {
+      background: #2563eb;
+    }
+
+    /* Menu */
+    .menu {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 80%;
+      max-width: 320px;
+      height: 100%;
+      background: #171717;
+      padding: 20px;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      z-index: 1000;
+    }
+    .menu.active {
+      transform: translateX(0);
+    }
+    .menu .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 30px;
+    }
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .menu-list li {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 18px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .menu-list li img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      filter: invert(1);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #333;
+      margin: 20px 0;
+    }
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 24px;
+      cursor: pointer;
+      color: #ffffff;
+    }
+
+    /* Section Les articles de la rédaction */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(200px, 1fr));
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .card {
+      background-color: #222222;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 12px;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #3b82f6;
+      color: white;
+      font-size: 12px;
+      padding: 3px 6px;
+      border-radius: 4px;
+      margin-bottom: 6px;
+    }
+
+    .title {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.3em;
+      margin: 0;
+    }
+
+    /* Flèches navigation */
+    .nav-arrows {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      margin: 16px 0;
+    }
+
+    .arrow {
+      background-color: #222222;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      color: white;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .arrow:hover {
+      background-color: #3b82f6;
+    }
+
+    /* Desktop styles */
+    @media (min-width: 768px) {
+      .menu {
+        width: 260px;
+        left: 0;
+        right: auto;
+        transform: translateX(0);
+        display: block;
+        background: transparent;
+      }
+      .menu.active {
+        transform: translateX(0);
+      }
+      .close-btn {
+        display: none;
+      }
+      .floating-btn {
+        display: none;
+      }
+      main {
+        margin-left: 300px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .container {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 12px;
+        padding: 12px;
+      }
+      .card img {
+        height: 120px;
+      }
+      .title {
+        font-size: 12px;
+      }
+      .badge {
+        font-size: 10px;
+        padding: 2px 5px;
+      }
+      .content {
+        padding: 10px;
+      }
+      .arrow {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+      }
+      .nav-arrows {
+        gap: 12px;
+        margin: 12px 0;
+      }
+    }
+
+    /* Styles for posts */
+    .posts {
+      margin-top: 40px;
+    }
+    .posts h2 {
+      font-size: 1.4rem;
+      margin: 0 0 16px 0;
+    }
+    .posts-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .post{
+      width: 100%;
+      max-width: 350px;
+      background: #171717;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .post .header{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+    .post .header img.logo{
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+    .post .header .name{
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .post .main-img{
+      width: 100%;
+      display: block;
+    }
+    .post .icons{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 10px 6px 10px;
+    }
+    .post .icons-left svg,
+    .post .icons-right svg{
+      cursor: pointer;
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+      fill: #fff;
+    }
+    .post .likes{
+      padding: 0 10px 4px 10px;
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .post .caption{
+      padding: 0 10px 10px 10px;
+      font-size: 14px;
+    }
+    .post .caption strong{
+      font-weight: 600;
+    }
+    .post .translation, .post .comments{
+      padding: 0 10px 10px 10px;
+      font-size: 13px;
+      color: #a8a8a8;
+      cursor: pointer;
+    }
+    @media (max-width: 767px) {
+      .posts {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding: 0 20px;
+      }
+      .posts-container {
+        align-items: stretch;
+      }
+      .post {
+        max-width: 100%;
+        border-radius: 0;
+      }
+      .post .main-img {
+        border-radius: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo -->
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40">
+      <text x="0" y="28" fill="white" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32">
+        Plit.
+      </text>
+    </svg>
+
+    <div class="header-right">
+      <div class="location" id="location-btn">
+        <!-- Icône localisation -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 
+          9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+        </svg>
+        <span id="current-location">Epehy 80740</span>
+      </div>
+      <nav id="menu-btn">☰</nav>
+    </div>
+  </header>
+
+  <nav class="menu" id="menu">
+    <span class="close-btn" id="close-btn">✕</span>
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40">
+      <text x="0" y="28" fill="white" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32">
+        
+      </text>
+    </svg>
+    <ul class="menu-list">
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dc70744123fe64eb9c1_Vectors-Wrapper.svg" alt=""> France</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dc8af20f1a0b1e0cfab_Vectors-Wrapper.svg" alt=""> International</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dc8dbb2ea14c6e75988_Vectors-Wrapper.svg" alt=""> Environnement</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dc98f9a6943be06fb45_Vectors-Wrapper.svg" alt=""> Technologie</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dca2057a46e435d463e_Vectors-Wrapper.svg" alt=""> Culture</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dca8f9a6943be06fc78_Vectors-Wrapper.svg" alt=""> Santé</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dcbe3187789e6e7f36d_Vectors-Wrapper.svg" alt=""> Économie</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dcb63dd5613156f85f0_Vectors-Wrapper.svg" alt=""> Sport</li>
+    </ul>
+    <hr>
+    <ul class="menu-list">
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dcbe3187789e6e7f36d_Vectors-Wrapper.svg" alt=""> Articles</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dcbe3187789e6e7f36d_Vectors-Wrapper.svg" alt=""> Documentaires</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dcbe3187789e6e7f36d_Vectors-Wrapper.svg" alt=""> Podcast</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dcbe3187789e6e7f36d_Vectors-Wrapper.svg" alt=""> Jeux concours</li>
+      <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dcbe3187789e6e7f36d_Vectors-Wrapper.svg" alt=""> Rechercher</li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <img src="https://static01.nyt.com/athletic/uploads/wp/2025/09/15065441/Iva-Jovic-Tennis-scaled.jpg" alt="Image principale">
+      <div class="tag">À la une</div>
+      <h1 id="hero-title">La meilleure technique de service au tennis est-elle désormais à mi-chemin entre le service par-dessus et le service par-dessous ?</h1>
+      <a href="#" class="btn">Accéder à l'article</a>
+    </section>
+
+    <section class="articles">
+      <div class="articles-header">
+        <h2>Les articles de la rédaction</h2>
+        <a href="#">Tout voir</a>
+      </div>
+      <div id="articles-container"></div>
+      <div class="container">
+        <!-- Carte 1 -->
+        <div class="card">
+          <img src="https://www.lego.com/cdn/cs/set/assets/blt750ff3c14f301897/05_OnePiece_gallery-grid_02.png?format=webply&fit=crop&quality=60&width=750&dpr=2" alt="">
+          <div class="content">
+            <span class="badge">Article</span>
+            <p class="title">LEGO x One Piece : le début d'une collaboration à succès.</p>
+          </div>
+        </div>
+
+        <!-- Carte 2 -->
+        <div class="card">
+          <img src="https://img.lemde.fr/2025/09/15/0/0/7880/4929/1112/0/75/0/f88e942_ftp-import-images-1-rfg7k9k1q18b-5899308-01-06.jpg" alt="">
+          <div class="content">
+            <span class="badge">Article</span>
+            <p class="title">Après l’assassinat de Charlie Kirk, l’administration Trump annonce une répression sans précédent contre la « gauche radicale »</p>
+          </div>
+        </div>
+
+        <!-- Carte 3 -->
+        <div class="card">
+          <img src="https://www.journaldugeek.com/app/uploads/2025/09/meta-rayban.jpg" alt="">
+          <div class="content">
+            <span class="badge">Article</span>
+            <p class="title">L'avenir du numérique avec les futures lunettes de Meta.</p>
+          </div>
+        </div>
+
+        <!-- Carte 4 -->
+        <div class="card">
+          <img src="https://s.france24.com/media/display/6d4b99d8-92c8-11f0-ba59-005056a97e36/w:1280/p:16x9/b543a2c1005546ba19323cf097a419fef39a53cc.jpg" alt="">
+          <div class="content">
+            <span class="badge">Article</span>
+            <p class="title">Quatorzième record du monde et troisième titre mondial pour Duplantis.</p>
+          </div>
+        </div>
+
+        <!-- Carte 5 -->
+        <div class="card">
+          <img src="https://images.bfmtv.com/r2XPHXZkZKj-KeI3crXSlM7b-4w=/6x316:1494x1153/1488x0/images/Photo-d-un-ovni-devoilee-en-avril-2020-par-le-ministere-de-la-Defense-americain-1507910.jpg" alt="">
+          <div class="content">
+            <span class="badge">Article</span>
+            <p class="title">La NASA diffuse pour la première fois une vidéo d’un OVNI à l’occasion de sa conférence dédiée au sujet.</p>
+          </div>
+        </div>
+
+        <!-- Carte 6 -->
+        <div class="card">
+          <img src="https://fr.web.img6.acsta.net/c_400_225/img/69/10/6910a4f6e447662f02cd55e8a59d7e16.jpg" alt="">
+          <div class="content">
+            <span class="badge">Article</span>
+            <p class="title">Superman 2025 : la recette du succès de James Gunn</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="posts">
+      <h2>Derniers posts de notre rédaction</h2>
+      <div class="posts-container">
+        <div class="post">
+          <!-- En-tête -->
+          <div class="header">
+            <img class="logo" src="https://onze-de-legende.com/wp-content/uploads/2024/05/logo-du-fc-barcelone.jpg" alt="logo">
+            <div class="name">fcbarcelona</div>
+          </div>
+
+          <!-- Image principale -->
+          <img class="main-img" src="https://matheonyx.github.io/Nesdy/549244136_18570367207023674_4154471095295439783_n.jpg" alt="post">
+
+          <!-- Icônes -->
+          <div class="icons">
+            <div class="icons-left">
+              <!-- Cœur -->
+              <svg id="heart1" viewBox="0 0 24 24">
+                <path d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"></path>
+              </svg>
+              <!-- Commentaire -->
+              <svg viewBox="0 0 24 24">
+                <path d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
+              </svg>
+              <!-- Partager -->
+              <svg viewBox="0 0 24 24">
+                <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                <polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+              </svg>
+            </div>
+            <div class="icons-right">
+              <!-- Favori -->
+              <svg viewBox="0 0 24 24">
+                <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Section sous l'image -->
+          <div class="likes"><span id="like-count1">178 948</span> j’aime</div>
+
+          <div class="caption">
+            <strong>fcbarelona</strong>
+            <span> Blaugrana. Passió. Champions. ⭐</span>
+          </div>
+          <div class="translation">Voir la traduction</div>
+          <div class="comments">Afficher les 603 commentaires</div>
+        </div>
+
+        <div class="post">
+          <!-- En-tête -->
+          <div class="header">
+            <img class="logo" src="https://onze-de-legende.com/wp-content/uploads/2024/05/logo-du-fc-barcelone.jpg" alt="logo">
+            <div class="name">fcbarcelona</div>
+          </div>
+
+          <!-- Image principale -->
+          <img class="main-img" src="https://matheonyx.github.io/Nesdy/549244136_18570367207023674_4154471095295439783_n.jpg" alt="post">
+
+          <!-- Icônes -->
+          <div class="icons">
+            <div class="icons-left">
+              <!-- Cœur -->
+              <svg id="heart2" viewBox="0 0 24 24">
+                <path d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"></path>
+              </svg>
+              <!-- Commentaire -->
+              <svg viewBox="0 0 24 24">
+                <path d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
+              </svg>
+              <!-- Partager -->
+              <svg viewBox="0 0 24 24">
+                <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                <polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+              </svg>
+            </div>
+            <div class="icons-right">
+              <!-- Favori -->
+              <svg viewBox="0 0 24 24">
+                <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Section sous l'image -->
+          <div class="likes"><span id="like-count2">178 948</span> j’aime</div>
+
+          <div class="caption">
+            <strong>fcbarelona</strong>
+            <span> Blaugrana. Passió. Champions. ⭐</span>
+          </div>
+          <div class="translation">Voir la traduction</div>
+          <div class="comments">Afficher les 603 commentaires</div>
+        </div>
+
+        <div class="post">
+          <!-- En-tête -->
+          <div class="header">
+            <img class="logo" src="https://onze-de-legende.com/wp-content/uploads/2024/05/logo-du-fc-barcelone.jpg" alt="logo">
+            <div class="name">fcbarcelona</div>
+          </div>
+
+          <!-- Image principale -->
+          <img class="main-img" src="https://matheonyx.github.io/Nesdy/549244136_18570367207023674_4154471095295439783_n.jpg" alt="post">
+
+          <!-- Icônes -->
+          <div class="icons">
+            <div class="icons-left">
+              <!-- Cœur -->
+              <svg id="heart3" viewBox="0 0 24 24">
+                <path d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"></path>
+              </svg>
+              <!-- Commentaire -->
+              <svg viewBox="0 0 24 24">
+                <path d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
+              </svg>
+              <!-- Partager -->
+              <svg viewBox="0 0 24 24">
+                <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                <polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+              </svg>
+            </div>
+            <div class="icons-right">
+              <!-- Favori -->
+              <svg viewBox="0 0 24 24">
+                <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Section sous l'image -->
+          <div class="likes"><span id="like-count3">178 948</span> j’aime</div>
+
+          <div class="caption">
+            <strong>fcbarelona</strong>
+            <span> Blaugrana. Passió. Champions. ⭐</span>
+          </div>
+          <div class="translation">Voir la traduction</div>
+          <div class="comments">Afficher les 603 commentaires</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bouton flottant -->
+  <div class="floating-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M4 4h16v2H4V4zm0 4h10v2H4V8zm0 4h16v2H4v-2zm0 4h10v2H4v-2z"/>
+    </svg>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h2>Choisir une ville</h2>
+      <div id="suggestion-container"></div>
+      <input type="text" id="city-search" placeholder="Rechercher une ville...">
+      <div class="city-list" id="city-list">
+        <div class="city">Epehy 80740</div>
+        <div class="city">Paris 75000</div>
+        <div class="city">Lille 59000</div>
+        <div class="city">Lyon 69000</div>
+        <div class="city">Marseille 13000</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const modal = document.getElementById("modal");
+    const locationBtn = document.getElementById("location-btn");
+    const cityList = document.getElementById("city-list");
+    const currentLocation = document.getElementById("current-location");
+    const articlesContainer = document.getElementById("articles-container");
+    const citySearch = document.getElementById("city-search");
+    const suggestionContainer = document.getElementById("suggestion-container");
+    const menuBtn = document.getElementById("menu-btn");
+    const menu = document.getElementById("menu");
+    const closeBtn = document.getElementById("close-btn");
+
+    const articlesByCity = {
+      "Epehy 80740": [
+        { title: "Actualité locale d’Epehy", img: "article1.jpg" },
+        { title: "Vie rurale et traditions", img: "article2.jpg" }
+      ],
+      "Paris 75000": [
+        { title: "Manifestations à Paris", img: "article1.jpg" },
+        { title: "Mode et culture parisienne", img: "article2.jpg" }
+      ],
+      "Lille 59000": [
+        { title: "Économie du Nord en plein essor", img: "article1.jpg" },
+        { title: "Nouveaux projets urbains à Lille", img: "article2.jpg" }
+      ],
+      "Lyon 69000": [
+        { title: "La gastronomie lyonnaise à l’honneur", img: "article1.jpg" },
+        { title: "Innovation et startups à Lyon", img: "article2.jpg" }
+      ],
+      "Marseille 13000": [
+        { title: "Le Vieux-Port en transformation", img: "article1.jpg" },
+        { title: "Football et culture méditerranéenne", img: "article2.jpg" }
+      ]
+    };
+
+    // Charger la ville depuis localStorage
+    function loadCity() {
+      const savedCity = localStorage.getItem("city") || "Epehy 80740";
+      currentLocation.textContent = savedCity;
+      renderArticles(savedCity);
+    }
+
+    // Rendu des articles
+    function renderArticles(city) {
+      articlesContainer.innerHTML = "";
+      const articles = articlesByCity[city] || [];
+      articles.forEach(article => {
+        const card = document.createElement("div");
+        card.className = "article-card";
+        card.innerHTML = `
+          <img src="${article.img}" alt="${article.title}">
+          <div class="article-content">
+            <div class="article-tag">Article</div>
+            <h3>${article.title}</h3>
+          </div>
+        `;
+        articlesContainer.appendChild(card);
+      });
+    }
+
+    // Ouvrir modal
+    locationBtn.addEventListener("click", () => {
+      modal.style.display = "flex";
+      citySearch.value = "";
+      [...cityList.children].forEach(city => {
+        city.style.display = "block";
+      });
+    });
+
+    // Fermer modal si clic à l’extérieur
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) modal.style.display = "none";
+    });
+
+    // Choix manuel de ville
+    cityList.addEventListener("click", (e) => {
+      if (e.target.classList.contains("city")) {
+        const city = e.target.textContent;
+        localStorage.setItem("city", city);
+        location.reload();
+      }
+    });
+
+    // Recherche
+    citySearch.addEventListener("input", () => {
+      const term = citySearch.value.toLowerCase();
+      [...cityList.children].forEach(city => {
+        city.style.display = city.textContent.toLowerCase().includes(term) ? "block" : "none";
+      });
+    });
+
+    // Détection géolocalisation
+    function detectLocation() {
+      if ("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition(async (pos) => {
+          const { latitude, longitude } = pos.coords;
+          try {
+            const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`);
+            const data = await res.json();
+            if (data.address && (data.address.city || data.address.village)) {
+              const cityName = data.address.city || data.address.village;
+              const postcode = data.address.postcode || "";
+              const suggestedCity = `${cityName} ${postcode}`;
+              showSuggestion(suggestedCity);
+            }
+          } catch (err) {
+            console.error("Erreur localisation :", err);
+          }
+        }, (err) => {
+          console.warn("Permission refusée ou erreur GPS", err);
+        });
+      }
+    }
+
+    // Afficher suggestion
+    function showSuggestion(city) {
+      suggestionContainer.innerHTML = `
+        <div class="suggestion" id="suggested-city">
+          📍 Utiliser ma position : ${city}
+        </div>
+      `;
+      document.getElementById("suggested-city").addEventListener("click", () => {
+        localStorage.setItem("city", city);
+        location.reload();
+      });
+    }
+
+    // Toggle menu
+    menuBtn.addEventListener("click", () => {
+      menu.classList.toggle("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove("active");
+    });
+
+    // Scripts for likes
+    const heart1 = document.getElementById('heart1');
+    const likeCount1 = document.getElementById('like-count1');
+    let liked1 = false;
+    heart1.addEventListener('click', ()=>{
+      liked1 = !liked1;
+      heart1.style.fill = liked1 ? 'red' : '#fff';
+      let count = parseInt(likeCount1.textContent.replace(/\D/g,''),10);
+      likeCount1.textContent = liked1 ? (count+1).toLocaleString('fr-FR') : (count-1).toLocaleString('fr-FR');
+    });
+
+    const heart2 = document.getElementById('heart2');
+    const likeCount2 = document.getElementById('like-count2');
+    let liked2 = false;
+    heart2.addEventListener('click', ()=>{
+      liked2 = !liked2;
+      heart2.style.fill = liked2 ? 'red' : '#fff';
+      let count = parseInt(likeCount2.textContent.replace(/\D/g,''),10);
+      likeCount2.textContent = liked2 ? (count+1).toLocaleString('fr-FR') : (count-1).toLocaleString('fr-FR');
+    });
+
+    const heart3 = document.getElementById('heart3');
+    const likeCount3 = document.getElementById('like-count3');
+    let liked3 = false;
+    heart3.addEventListener('click', ()=>{
+      liked3 = !liked3;
+      heart3.style.fill = liked3 ? 'red' : '#fff';
+      let count = parseInt(likeCount3.textContent.replace(/\D/g,''),10);
+      likeCount3.textContent = liked3 ? (count+1).toLocaleString('fr-FR') : (count-1).toLocaleString('fr-FR');
+    });
+
+    // Init
+    loadCity();
+    detectLocation();
+  </script>
+</body>
+</html>
