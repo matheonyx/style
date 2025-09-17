@@ -56,6 +56,10 @@
       margin-bottom: 16px;
       box-shadow: 0 0 60px 20px rgba(255, 200, 150, 0.4);
       display: block;
+      transition: transform 0.2s ease;
+    }
+    .hero img:hover {
+      transform: translateY(-10px);
     }
     .tag {
       display: inline-block;
@@ -106,6 +110,8 @@
       border-radius: 8px;
       margin-bottom: 16px;
       overflow: hidden;
+      text-decoration: none;
+      color: #fff;
     }
     .article-card img {
       width: 40%;
@@ -128,8 +134,6 @@
       font-size: 1rem;
       line-height: 1.3;
     }
-
-    /* Bouton flottant */
     .floating-btn {
       position: fixed;
       bottom: 20px;
@@ -154,8 +158,6 @@
       height: 28px;
       fill: #ffffff;
     }
-
-    /* Modal */
     .modal {
       display: none;
       position: fixed;
@@ -215,17 +217,15 @@
     .suggestion {
       padding: 12px;
       border-radius: 10px;
-      background: #3b82f6;
-      color: #fff;
+      background: white;
+      color: black;
       margin-bottom: 12px;
       cursor: pointer;
       font-weight: bold;
     }
     .suggestion:hover {
-      background: #2563eb;
+      background: #f0f0f0;
     }
-
-    /* Menu */
     .menu {
       position: fixed;
       top: 0;
@@ -280,15 +280,12 @@
       cursor: pointer;
       color: #ffffff;
     }
-
-    /* Section Les articles de la rédaction */
     .container {
       display: grid;
       grid-template-columns: repeat(3, minmax(200px, 1fr));
       gap: 16px;
       padding: 16px;
     }
-
     .card {
       background-color: #222222;
       border-radius: 8px;
@@ -296,22 +293,20 @@
       display: flex;
       flex-direction: column;
       transition: transform 0.2s ease;
+      text-decoration: none;
+      color: #fff;
     }
-
     .card:hover {
       transform: scale(1.02);
     }
-
     .card img {
       width: 100%;
       height: 140px;
       object-fit: cover;
     }
-
     .content {
       padding: 12px;
     }
-
     .badge {
       display: inline-block;
       background-color: #3b82f6;
@@ -321,15 +316,12 @@
       border-radius: 4px;
       margin-bottom: 6px;
     }
-
     .title {
       font-size: 14px;
       font-weight: bold;
       line-height: 1.3em;
       margin: 0;
     }
-
-    /* Flèches navigation */
     .nav-arrows {
       display: flex;
       justify-content: center;
@@ -337,7 +329,6 @@
       gap: 16px;
       margin: 16px 0;
     }
-
     .arrow {
       background-color: #222222;
       border: none;
@@ -352,12 +343,70 @@
       cursor: pointer;
       transition: background 0.2s ease;
     }
-
     .arrow:hover {
       background-color: #3b82f6;
     }
-
-    /* Desktop styles */
+    .article-content {
+      margin-top: 40px;
+    }
+    .article-content h2 {
+      font-size: 1.8rem;
+      margin-bottom: 16px;
+    }
+    .article-content h3 {
+      font-size: 1.4rem;
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+    .article-content img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    .article-content p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    .back-btn {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #333;
+      margin-top: 40px;
+      font-size: 0.8rem;
+    }
+    footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+    }
+    footer ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    footer ul li a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 767px) {
+      footer ul {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
     @media (min-width: 768px) {
       .menu {
         width: 260px;
@@ -380,7 +429,6 @@
         margin-left: 300px;
       }
     }
-
     @media (max-width: 767px) {
       .container {
         grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -410,8 +458,6 @@
         margin: 12px 0;
       }
     }
-
-    /* Styles for posts */
     .posts {
       margin-top: 40px;
     }
@@ -425,59 +471,63 @@
       align-items: center;
       gap: 20px;
     }
-    .post{
+    .post {
       width: 100%;
       max-width: 350px;
       background: #171717;
       border-radius: 12px;
       overflow: hidden;
     }
-    .post .header{
+    .post .header {
       display: flex;
       align-items: center;
       padding: 10px;
     }
-    .post .header img.logo{
+    .post .header img.logo {
       width: 32px;
       height: 32px;
       border-radius: 50%;
       object-fit: cover;
       margin-right: 10px;
     }
-    .post .header .name{
+    .post .header .name {
       font-weight: 600;
       font-size: 14px;
     }
-    .post .main-img{
+    .post .main-img {
       width: 100%;
       display: block;
     }
-    .post .icons{
+    .post .icons {
       display: flex;
       justify-content: space-between;
       padding: 10px 10px 6px 10px;
     }
     .post .icons-left svg,
-    .post .icons-right svg{
+    .post .icons-right svg {
       cursor: pointer;
       width: 24px;
       height: 24px;
       margin-right: 12px;
       fill: #fff;
     }
-    .post .likes{
+    .post .likes {
       padding: 0 10px 4px 10px;
       font-weight: 700;
       font-size: 15px;
+      display: none;
     }
-    .post .caption{
+    .post .likes.active {
+      display: block;
+    }
+    .post .caption {
       padding: 0 10px 10px 10px;
       font-size: 14px;
     }
-    .post .caption strong{
+    .post .caption strong {
       font-weight: 600;
     }
-    .post .translation, .post .comments{
+    .post .translation, .post .comments {
       padding: 0 10px 10px 10px;
       font-size: 13px;
       color: #a8a8a8;
@@ -504,16 +554,13 @@
 </head>
 <body>
   <header>
-    <!-- Logo -->
     <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40">
       <text x="0" y="28" fill="white" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32">
         Plit.
       </text>
     </svg>
-
     <div class="header-right">
       <div class="location" id="location-btn">
-        <!-- Icône localisation -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 
           9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
@@ -523,12 +570,10 @@
       <nav id="menu-btn">☰</nav>
     </div>
   </header>
-
   <nav class="menu" id="menu">
     <span class="close-btn" id="close-btn">✕</span>
     <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40">
       <text x="0" y="28" fill="white" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32">
-        
       </text>
     </svg>
     <ul class="menu-list">
@@ -550,213 +595,161 @@
       <li><img src="https://cdn.prod.website-files.com/6638964356641fd959e2727d/667d2dcbe3187789e6e7f36d_Vectors-Wrapper.svg" alt=""> Rechercher</li>
     </ul>
   </nav>
-
   <main>
-    <section class="hero">
+    <section class="hero" id="hero-section">
       <img src="https://static01.nyt.com/athletic/uploads/wp/2025/09/15065441/Iva-Jovic-Tennis-scaled.jpg" alt="Image principale">
       <div class="tag">À la une</div>
       <h1 id="hero-title">La meilleure technique de service au tennis est-elle désormais à mi-chemin entre le service par-dessus et le service par-dessous ?</h1>
-      <a href="#" class="btn">Accéder à l'article</a>
+      <a href="?article=hero" class="btn">Accéder à l'article</a>
     </section>
-
-    <section class="articles">
+    <section class="articles" id="articles-section">
       <div class="articles-header">
         <h2>Les articles de la rédaction</h2>
         <a href="#">Tout voir</a>
       </div>
       <div id="articles-container"></div>
       <div class="container">
-        <!-- Carte 1 -->
-        <div class="card">
+        <a href="?article=LEGO%20x%20One%20Piece%20:%20le%20d%C3%A9but%20d'une%20collaboration%20%C3%A0%20succ%C3%A8s." class="card" data-article="LEGO x One Piece : le début d'une collaboration à succès.">
           <img src="https://www.lego.com/cdn/cs/set/assets/blt750ff3c14f301897/05_OnePiece_gallery-grid_02.png?format=webply&fit=crop&quality=60&width=750&dpr=2" alt="">
           <div class="content">
             <span class="badge">Article</span>
             <p class="title">LEGO x One Piece : le début d'une collaboration à succès.</p>
           </div>
-        </div>
-
-        <!-- Carte 2 -->
-        <div class="card">
+        </a>
+        <a href="?article=Apr%C3%A8s%20l%E2%80%99assassinat%20de%20Charlie%20Kirk,%20l%E2%80%99administration%20Trump%20annonce%20une%20r%C3%A9pression%20sans%20pr%C3%A9c%C3%A9dent%20contre%20la%20%C2%AB%20gauche%20radicale%20%C2%BB" class="card" data-article="Après l’assassinat de Charlie Kirk, l’administration Trump annonce une répression sans précédent contre la « gauche radicale »">
           <img src="https://img.lemde.fr/2025/09/15/0/0/7880/4929/1112/0/75/0/f88e942_ftp-import-images-1-rfg7k9k1q18b-5899308-01-06.jpg" alt="">
           <div class="content">
             <span class="badge">Article</span>
             <p class="title">Après l’assassinat de Charlie Kirk, l’administration Trump annonce une répression sans précédent contre la « gauche radicale »</p>
           </div>
-        </div>
-
-        <!-- Carte 3 -->
-        <div class="card">
+        </a>
+        <a href="?article=L'avenir%20du%20num%C3%A9rique%20avec%20les%20futures%20lunettes%20de%20Meta." class="card" data-article="L'avenir du numérique avec les futures lunettes de Meta.">
           <img src="https://www.journaldugeek.com/app/uploads/2025/09/meta-rayban.jpg" alt="">
           <div class="content">
             <span class="badge">Article</span>
             <p class="title">L'avenir du numérique avec les futures lunettes de Meta.</p>
           </div>
-        </div>
-
-        <!-- Carte 4 -->
-        <div class="card">
+        </a>
+        <a href="?article=Quatorzi%C3%A8me%20record%20du%20monde%20et%20troisi%C3%A8me%20titre%20mondial%20pour%20Duplantis." class="card" data-article="Quatorzième record du monde et troisième titre mondial pour Duplantis.">
           <img src="https://s.france24.com/media/display/6d4b99d8-92c8-11f0-ba59-005056a97e36/w:1280/p:16x9/b543a2c1005546ba19323cf097a419fef39a53cc.jpg" alt="">
           <div class="content">
             <span class="badge">Article</span>
             <p class="title">Quatorzième record du monde et troisième titre mondial pour Duplantis.</p>
           </div>
-        </div>
-
-        <!-- Carte 5 -->
-        <div class="card">
+        </a>
+        <a href="?article=La%20NASA%20diffuse%20pour%20la%20premi%C3%A8re%20fois%20une%20vid%C3%A9o%20d%E2%80%99un%20OVNI%20%C3%A0%20l%E2%80%99occasion%20de%20sa%20conf%C3%A9rence%20d%C3%A9di%C3%A9e%20au%20sujet." class="card" data-article="La NASA diffuse pour la première fois une vidéo d’un OVNI à l’occasion de sa conférence dédiée au sujet.">
           <img src="https://images.bfmtv.com/r2XPHXZkZKj-KeI3crXSlM7b-4w=/6x316:1494x1153/1488x0/images/Photo-d-un-ovni-devoilee-en-avril-2020-par-le-ministere-de-la-Defense-americain-1507910.jpg" alt="">
           <div class="content">
             <span class="badge">Article</span>
             <p class="title">La NASA diffuse pour la première fois une vidéo d’un OVNI à l’occasion de sa conférence dédiée au sujet.</p>
           </div>
-        </div>
-
-        <!-- Carte 6 -->
-        <div class="card">
+        </a>
+        <a href="?article=Superman%202025%20:%20la%20recette%20du%20succ%C3%A8s%20de%20James%20Gunn" class="card" data-article="Superman 2025 : la recette du succès de James Gunn">
           <img src="https://fr.web.img6.acsta.net/c_400_225/img/69/10/6910a4f6e447662f02cd55e8a59d7e16.jpg" alt="">
           <div class="content">
             <span class="badge">Article</span>
             <p class="title">Superman 2025 : la recette du succès de James Gunn</p>
           </div>
-        </div>
+        </a>
       </div>
     </section>
-
-    <section class="posts">
+    <section class="posts" id="posts-section">
       <h2>Derniers posts de notre rédaction</h2>
       <div class="posts-container">
         <div class="post">
-          <!-- En-tête -->
           <div class="header">
             <img class="logo" src="https://onze-de-legende.com/wp-content/uploads/2024/05/logo-du-fc-barcelone.jpg" alt="logo">
-            <div class="name">fcbarcelona</div>
+            <div class="name">Plit . et fcbarcelona</div>
           </div>
-
-          <!-- Image principale -->
-          <img class="main-img" src="https://matheonyx.github.io/Nesdy/549244136_18570367207023674_4154471095295439783_n.jpg" alt="post">
-
-          <!-- Icônes -->
+          <img class="main-img" src="https://matheonyx.github.io/style/548624846_18570158344023674_2829565948995117604_n.jpg" alt="post">
           <div class="icons">
             <div class="icons-left">
-              <!-- Cœur -->
               <svg id="heart1" viewBox="0 0 24 24">
                 <path d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"></path>
               </svg>
-              <!-- Commentaire -->
               <svg viewBox="0 0 24 24">
                 <path d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
               </svg>
-              <!-- Partager -->
               <svg viewBox="0 0 24 24">
                 <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
                 <polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
               </svg>
             </div>
             <div class="icons-right">
-              <!-- Favori -->
               <svg viewBox="0 0 24 24">
                 <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
               </svg>
             </div>
           </div>
-
-          <!-- Section sous l'image -->
-          <div class="likes"><span id="like-count1">178 948</span> j’aime</div>
-
+          <div class="likes" id="likes1"><span id="like-count1"></span> j’aime</div>
           <div class="caption">
-            <strong>fcbarelona</strong>
-            <span> Blaugrana. Passió. Champions. ⭐</span>
+            <strong>fcbarcelona</strong>
+            <span> Trois appareil dentaire en un match ! ⚽️⚽️</span>
           </div>
           <div class="translation">Voir la traduction</div>
           <div class="comments">Afficher les 603 commentaires</div>
         </div>
-
         <div class="post">
-          <!-- En-tête -->
           <div class="header">
             <img class="logo" src="https://onze-de-legende.com/wp-content/uploads/2024/05/logo-du-fc-barcelone.jpg" alt="logo">
             <div class="name">fcbarcelona</div>
           </div>
-
-          <!-- Image principale -->
           <img class="main-img" src="https://matheonyx.github.io/Nesdy/549244136_18570367207023674_4154471095295439783_n.jpg" alt="post">
-
-          <!-- Icônes -->
           <div class="icons">
             <div class="icons-left">
-              <!-- Cœur -->
               <svg id="heart2" viewBox="0 0 24 24">
                 <path d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"></path>
               </svg>
-              <!-- Commentaire -->
               <svg viewBox="0 0 24 24">
                 <path d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
               </svg>
-              <!-- Partager -->
               <svg viewBox="0 0 24 24">
                 <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
                 <polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
               </svg>
             </div>
             <div class="icons-right">
-              <!-- Favori -->
               <svg viewBox="0 0 24 24">
                 <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
               </svg>
             </div>
           </div>
-
-          <!-- Section sous l'image -->
-          <div class="likes"><span id="like-count2">178 948</span> j’aime</div>
-
+          <div class="likes" id="likes2"><span id="like-count2"></span> j’aime</div>
           <div class="caption">
-            <strong>fcbarelona</strong>
+            <strong>fcbarcelona</strong>
             <span> Blaugrana. Passió. Champions. ⭐</span>
           </div>
           <div class="translation">Voir la traduction</div>
           <div class="comments">Afficher les 603 commentaires</div>
         </div>
-
         <div class="post">
-          <!-- En-tête -->
           <div class="header">
             <img class="logo" src="https://onze-de-legende.com/wp-content/uploads/2024/05/logo-du-fc-barcelone.jpg" alt="logo">
             <div class="name">fcbarcelona</div>
           </div>
-
-          <!-- Image principale -->
           <img class="main-img" src="https://matheonyx.github.io/Nesdy/549244136_18570367207023674_4154471095295439783_n.jpg" alt="post">
-
-          <!-- Icônes -->
           <div class="icons">
             <div class="icons-left">
-              <!-- Cœur -->
               <svg id="heart3" viewBox="0 0 24 24">
                 <path d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"></path>
               </svg>
-              <!-- Commentaire -->
               <svg viewBox="0 0 24 24">
                 <path d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
               </svg>
-              <!-- Partager -->
               <svg viewBox="0 0 24 24">
                 <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
                 <polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
               </svg>
             </div>
             <div class="icons-right">
-              <!-- Favori -->
               <svg viewBox="0 0 24 24">
                 <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
               </svg>
             </div>
           </div>
-
-          <!-- Section sous l'image -->
-          <div class="likes"><span id="like-count3">178 948</span> j’aime</div>
-
+          <div class="likes" id="likes3"><span id="like-count3"></span> j’aime</div>
           <div class="caption">
-            <strong>fcbarelona</strong>
+            <strong>fcbarcelona</strong>
             <span> Blaugrana. Passió. Champions. ⭐</span>
           </div>
           <div class="translation">Voir la traduction</div>
@@ -764,16 +757,26 @@
         </div>
       </div>
     </section>
+    <section class="article-content" id="article-content" style="display: none;">
+      <a href="?" class="back-btn">Retour</a>
+      <h2 id="article-title"></h2>
+      <img id="article-image" src="" alt="">
+      <div id="article-text"></div>
+    </section>
+    <footer>
+      <p>© 2025 Plit. Tous droits réservés.</p>
+      <ul>
+        <li><a href="#">Politique de confidentialité</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">À propos</a></li>
+      </ul>
+    </footer>
   </main>
-
-  <!-- Bouton flottant -->
   <div class="floating-btn">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
       <path d="M4 4h16v2H4V4zm0 4h10v2H4V8zm0 4h16v2H4v-2zm0 4h10v2H4v-2z"/>
     </svg>
   </div>
-
-  <!-- Modal -->
   <div class="modal" id="modal">
     <div class="modal-content">
       <h2>Choisir une ville</h2>
@@ -788,7 +791,6 @@
       </div>
     </div>
   </div>
-
   <script>
     const modal = document.getElementById("modal");
     const locationBtn = document.getElementById("location-btn");
@@ -800,10 +802,17 @@
     const menuBtn = document.getElementById("menu-btn");
     const menu = document.getElementById("menu");
     const closeBtn = document.getElementById("close-btn");
+    const heroSection = document.getElementById("hero-section");
+    const articlesSection = document.getElementById("articles-section");
+    const postsSection = document.getElementById("posts-section");
+    const articleContentSection = document.getElementById("article-content");
+    const articleTitle = document.getElementById("article-title");
+    const articleImage = document.getElementById("article-image");
+    const articleText = document.getElementById("article-text");
 
     const articlesByCity = {
       "Epehy 80740": [
-        { title: "Actualité locale d’Epehy", img: "article1.jpg" },
+        { title: "Actualité locale d’Epehy", img: "https://image.jimcdn.com/app/cms/image/transf/dimension=4096x4096:format=jpg/path/s83a3e505664ca356/image/i49201a6dfbd87f14/version/1636231558/image.jpg" },
         { title: "Vie rurale et traditions", img: "article2.jpg" }
       ],
       "Paris 75000": [
@@ -824,32 +833,133 @@
       ]
     };
 
-    // Charger la ville depuis localStorage
+    const articleContent = {
+      "hero": {
+        title: "La meilleure technique de service au tennis est-elle désormais à mi-chemin entre le service par-dessus et le service par-dessous ?",
+        image: "https://static01.nyt.com/athletic/uploads/wp/2025/09/15065441/Iva-Jovic-Tennis-scaled.jpg",
+        text: '<h3>Le début d\'un renouveau</h3><p>Le service au tennis, un des éléments les plus cruciaux du jeu, continue d’évoluer. Ces dernières années, les joueurs professionnels explorent une nouvelle approche hybride qui combine la puissance du service par-dessus avec la précision et l’effet du service par-dessous.</p><h3>Les origines de cette technique</h3><p>Cette méthode hybride trouve ses racines dans les analyses biomécaniques des mouvements des joueurs comme Roger Federer et Nick Kyrgios, qui ont expérimenté avec des services sous la main pour surprendre leurs adversaires.</p><h3>L\'impact sur le jeu moderne</h3><p>En 2025, cette technique est adoptée par de jeunes talents comme Iva Jovic, qui a utilisé un service intermédiaire pour remporter plusieurs matches lors de l\'US Open. Les entraîneurs notent une réduction des fautes et une augmentation de l\'efficacité.</p><h3>Perspectives futures</h3><p>Les académies de tennis intègrent désormais cette technique dans leurs programmes, prévoyant qu\'elle deviendra standard d\'ici 2030. Cependant, des débats persistent sur son influence sur les règles du jeu traditionnel.</p>'
+      },
+      "LEGO x One Piece : le début d'une collaboration à succès.": {
+        title: "LEGO x One Piece : le début d'une collaboration à succès.",
+        image: "https://www.lego.com/cdn/cs/set/assets/blt750ff3c14f301897/05_OnePiece_gallery-grid_02.png?format=webply&fit=crop&quality=60&width=750&dpr=2",
+        text: '<h3>Le début d\'un renouveau</h3><p>En 2025, LEGO et One Piece ont uni leurs forces pour lancer une collection de sets qui ravissent les fans. Cette collaboration marque une nouvelle ère pour les briques LEGO dans l\'univers des anime.</p><h3>Les sets emblématiques</h3><p>Les premiers sets incluent le Thousand Sunny avec plus de 2000 pièces, permettant de recréer des scènes du manga avec des figurines détaillées de Luffy et son équipage.</p><h3>L\'impact sur les fans</h3><p>Depuis leur sortie, les sets se sont vendus à plus de 500 000 exemplaires, boostant les ventes de LEGO et attirant une nouvelle génération de constructeurs passionnés par One Piece.</p><h3>Perspectives d\'avenir</h3><p>LEGO prévoit d\'étendre la ligne avec des sets basés sur d\'autres arcs, renforçant sa présence dans le marché des collaborations anime, avec des annonces attendues pour 2026.</p>'
+      },
+      "Après l’assassinat de Charlie Kirk, l’administration Trump annonce une répression sans précédent contre la « gauche radicale »": {
+        title: "Après l’assassinat de Charlie Kirk, l’administration Trump annonce une répression sans précédent contre la « gauche radicale »",
+        image: "https://img.lemde.fr/2025/09/15/0/0/7880/4929/1112/0/75/0/f88e942_ftp-import-images-1-rfg7k9k1q18b-5899308-01-06.jpg",
+        text: '<h3>Le début d\'un renouveau</h3><p>L\'assassinat de Charlie Kirk a secoué les États-Unis, menant l\'administration Trump à annoncer des mesures contre la « gauche radicale », marquant un tournant dans la politique américaine.</p><h3>Les circonstances de l\'événement</h3><p>L\'incident s\'est produit lors d\'un rassemblement, avec des suspicions pointant vers des groupes extrémistes. L\'enquête fédérale est en cours pour identifier les responsables.</p><h3>Les mesures annoncées</h3><p>Le président Trump a promis une surveillance accrue et des sanctions contre les organisations subversives, incluant des restrictions sur les manifestations et une augmentation des budgets pour la sécurité intérieure.</p><h3>Les réactions et débats</h3><p>Les critiques dénoncent une atteinte aux libertés civiles, tandis que les supporters y voient une nécessité pour restaurer l\'ordre. Les tensions pourraient s\'intensifier dans les mois à venir.</p>'
+      },
+      "L'avenir du numérique avec les futures lunettes de Meta.": {
+        title: "L'avenir du numérique avec les futures lunettes de Meta.",
+        image: "https://www.journaldugeek.com/app/uploads/2025/09/meta-rayban.jpg",
+        text: '<h3>Le début d\'un renouveau</h3><p>Meta redéfinit la réalité augmentée avec ses lunettes intelligentes, prévues pour 2026, intégrant IA et connectivité pour transformer les interactions quotidiennes.</p><h3>Les technologies intégrées</h3><p>Les lunettes incluent des écrans micro-OLED, reconnaissance vocale et capteurs biométriques, offrant une autonomie de 12 heures et des fonctionnalités comme la navigation AR.</p><h3>L\'impact sur la société</h3><p>Ces lunettes pourraient révolutionner le travail, les jeux et la santé, mais soulèvent des préoccupations sur la vie privée et la collecte de données personnelles.</p><h3>Perspectives et défis</h3><p>Meta assure des mesures de sécurité, mais le succès dépendra de l\'équilibre entre innovation et éthique, avec des régulations potentielles à l\'horizon.</p>'
+      },
+      "Quatorzième record du monde et troisième titre mondial pour Duplantis.": {
+        title: "Quatorzième record du monde et troisième titre mondial pour Duplantis.",
+        image: "https://s.france24.com/media/display/6d4b99d8-92c8-11f0-ba59-005056a97e36/w:1280/p:16x9/b543a2c1005546ba19323cf097a419fef39a53cc.jpg",
+        text: '<h3>Le début d\'un renouveau</h3><p>Armand Duplantis a établi son quatorzième record du monde au saut à la perche avec 6,25 mètres lors des Championnats du monde 2025 à Tokyo.</p><h3>Le parcours de Duplantis</h3><p>À 25 ans, Duplantis domine la discipline, combinant technique et préparation mentale pour surpasser les légendes comme Bubka.</p><h3>Les détails du record</h3><p>Le saut a été réalisé sous la pluie, démontrant la résilience de l\'athlète et l\'efficacité de son équipement personnalisé.</p><h3>L\'influence sur l\'athlétisme</h3><p>Duplantis inspire une nouvelle génération, avec des prédictions qu\'il atteindra 6,30 mètres, redéfinissant les limites du saut à la perche.</p>'
+      },
+      "La NASA diffuse pour la première fois une vidéo d’un OVNI à l’occasion de sa conférence dédiée au sujet.": {
+        title: "La NASA diffuse pour la première fois une vidéo d’un OVNI à l’occasion de sa conférence dédiée au sujet.",
+        image: "https://images.bfmtv.com/r2XPHXZkZKj-KeI3crXSlM7b-4w=/6x316:1494x1153/1488x0/images/Photo-d-un-ovni-devoilee-en-avril-2020-par-le-ministere-de-la-Defense-americain-1507910.jpg",
+        text: '<h3>Le début d\'un renouveau</h3><p>La NASA a dévoilé une vidéo d\'un OVNI lors de sa conférence 2025 sur les UAP, marquant un pas vers la transparence dans la recherche sur ces phénomènes.</p><h3>L\'analyse de la vidéo</h3><p>La séquence montre un objet en disque se déplaçant à haute vitesse, défiant les lois aérodynamiques connues, capturée par un satellite.</p><h3>Les implications scientifiques</h3><p>Les experts appellent à des études approfondies, en collaboration avec le Pentagone, pour comprendre si ces objets sont terrestres ou extraterrestres.</p><h3>Les réactions publiques</h3><p>La diffusion a suscité fascination et scepticisme, poussant la NASA à partager plus de données pour démystifier les UAP.</p>'
+      },
+      "Superman 2025 : la recette du succès de James Gunn": {
+        title: "Superman 2025 : la recette du succès de James Gunn",
+        image: "https://fr.web.img6.acsta.net/c_400_225/img/69/10/6910a4f6e447662f02cd55e8a59d7e16.jpg",
+        text: '<h3>Le début d\'un renouveau</h3><p>James Gunn relance la franchise Superman avec un film attendu en juillet 2025, mélangeant action et humour pour revitaliser l\'univers DC.</p><h3>Les éléments clés du film</h3><p>Avec David Corenswet en Superman, le film explore les origines du héros tout en introduisant de nouveaux personnages et des séquences visuelles époustouflantes.</p><h3>Les projections et critiques</h3><p>Les tests initiaux louent les effets et la narration, avec un budget de 200 millions de dollars permettant des batailles innovantes.</p><h3>L\'impact sur DC</h3><p>Ce film pourrait redéfinir la franchise, attirant de nouveaux fans et pavant la voie pour d\'autres projets sous la direction de Gunn.</p>'
+      },
+      "Actualité locale d’Epehy": {
+        title: "Actualité locale d’Epehy",
+        image: "https://image.jimcdn.com/app/cms/image/transf/dimension=4096x4096:format=jpg/path/s83a3e505664ca356/image/i49201a6dfbd87f14/version/1636231558/image.jpg",
+        text: '<h3>Introduction</h3><p>Epehy, petite commune de la Somme, connaît une actualité dynamique en 2025 avec des événements locaux marquants.</p><h3>Événements récents</h3><p>La fête du village a réuni plus de 500 personnes, célébrant les traditions locales avec des stands artisanaux et des spectacles.</p><h3>Développements communautaires</h3><p>Des projets de rénovation des infrastructures, comme la mairie, avancent pour améliorer la vie quotidienne des habitants.</p><h3>Perspectives</h3><p>Avec l\'arrivée de nouvelles entreprises, Epehy vise une croissance économique durable d\'ici 2030.</p>'
+      },
+      "Vie rurale et traditions": {
+        title: "Vie rurale et traditions",
+        image: "article2.jpg",
+        text: '<h3>Introduction</h3><p>La vie rurale à Epehy est imprégnée de traditions ancestrales qui se perpétuent de génération en génération.</p><h3>Les coutumes locales</h3><p>Les fêtes agricoles et les marchés hebdomadaires renforcent le lien communautaire et préservent le patrimoine culturel.</p><h3>Challenges modernes</h3><p>Face à l\'urbanisation, les habitants s\'efforcent de maintenir ces traditions tout en intégrant des innovations durables.</p><h3>Avenir</h3><p>Des initiatives éducatives visent à transmettre ces valeurs aux jeunes pour assurer la continuité.</p>'
+      },
+      "Manifestations à Paris": {
+        title: "Manifestations à Paris",
+        image: "article1.jpg",
+        text: '<h3>Introduction</h3><p>Paris reste le théâtre de nombreuses manifestations en 2025, reflétant les tensions sociales actuelles.</p><h3>Les causes principales</h3><p>Les revendications portent sur les salaires, l\'environnement et les droits des travailleurs, mobilisant des milliers de personnes.</p><h3>Impact sur la ville</h3><p>Ces événements influencent le tourisme et l\'économie locale, avec des mesures de sécurité renforcées.</p><h3>Perspectives</h3><p>Des dialogues entre gouvernement et manifestants pourraient apaiser les tensions à long terme.</p>'
+      },
+      "Mode et culture parisienne": {
+        title: "Mode et culture parisienne",
+        image: "article2.jpg",
+        text: '<h3>Introduction</h3><p>Paris, capitale de la mode, continue d\'innover en 2025 avec des événements culturels majeurs.</p><h3>Les tendances actuelles</h3><p>La Fashion Week met en avant des designs durables et inclusifs, attirant des créateurs du monde entier.</p><h3>Influence globale</h3><p>La culture parisienne inspire les arts, la musique et la gastronomie à l\'international.</p><h3>Avenir</h3><p>Avec des initiatives vertes, Paris vise à rester leader en mode éthique d\'ici 2030.</p>'
+      },
+      "Économie du Nord en plein essor": {
+        title: "Économie du Nord en plein essor",
+        image: "article1.jpg",
+        text: '<h3>Introduction</h3><p>L\'économie du Nord de la France connaît une croissance remarquable en 2025.</p><h3>Les secteurs clés</h3><p>L\'industrie, le commerce et les technologies émergentes boostent l\'emploi et les investissements.</p><h3>Défis rencontrés</h3><p>Malgré cela, des inégalités persistent, nécessitant des politiques inclusives.</p><h3>Perspectives</h3><p>Avec des partenariats européens, la région pourrait devenir un hub économique majeur.</p>'
+      },
+      "Nouveaux projets urbains à Lille": {
+        title: "Nouveaux projets urbains à Lille",
+        image: "article2.jpg",
+        text: '<h3>Introduction</h3><p>Lille se transforme avec de ambitieux projets urbains en 2025.</p><h3>Les initiatives phares</h3><p>Des quartiers éco-responsables et des transports modernisés améliorent la qualité de vie.</p><h3>Impact sur les habitants</h3><p>Ces changements favorisent l\'inclusion sociale et l\'attractivité touristique.</p><h3>Avenir</h3><p>Lille vise une ville durable et innovante pour les décennies à venir.</p>'
+      },
+      "La gastronomie lyonnaise à l’honneur": {
+        title: "La gastronomie lyonnaise à l’honneur",
+        image: "article1.jpg",
+        text: '<h3>Introduction</h3><p>Lyon, capitale de la gastronomie, brille en 2025 avec ses spécialités culinaires.</p><h3>Les plats emblématiques</h3><p>Des bouchons lyonnais aux innovations fusion, la scène food est vibrante.</p><h3>Événements et festivals</h3><p>Les foires gastronomiques attirent des visiteurs du monde entier.</p><h3>Perspectives</h3><p>Avec un focus sur le bio, Lyon renforce son statut mondial.</p>'
+      },
+      "Innovation et startups à Lyon": {
+        title: "Innovation et startups à Lyon",
+        image: "article2.jpg",
+        text: '<h3>Introduction</h3><p>Lyon émerge comme un hub pour les startups en 2025.</p><h3>Les secteurs en croissance</h3><p>Tech, biotech et green energy attirent des investissements massifs.</p><h3>Soutien aux entrepreneurs</h3><p>Des incubateurs et fonds publics boostent l\'innovation locale.</p><h3>Avenir</h3><p>Lyon pourrait rivaliser avec Paris en tant que centre tech français.</p>'
+      },
+      "Le Vieux-Port en transformation": {
+        title: "Le Vieux-Port en transformation",
+        image: "article1.jpg",
+        text: '<h3>Introduction</h3><p>Le Vieux-Port de Marseille subit une métamorphose en 2025.</p><h3>Les travaux en cours</h3><p>Modernisation des quais et espaces verts pour un port plus accessible.</p><h3>Impact économique</h3><p>Cela booste le tourisme et le commerce maritime local.</p><h3>Perspectives</h3><p>Un port durable et attractif pour les futures générations.</p>'
+      },
+      "Football et culture méditerranéenne": {
+        title: "Football et culture méditerranéenne",
+        image: "article2.jpg",
+        text: '<h3>Introduction</h3><p>À Marseille, le football fusionne avec la culture méditerranéenne en 2025.</p><h3>L\'OM et ses fans</h3><p>Le club emblématique unit la communauté autour de matchs passionnés.</p><h3>Influence culturelle</h3><p>Des festivals allient sport, musique et gastronomie locale.</p><h3>Avenir</h3><p>Marseille renforce son identité à travers ces traditions.</p>'
+      }
+    };
+
     function loadCity() {
       const savedCity = localStorage.getItem("city") || "Epehy 80740";
       currentLocation.textContent = savedCity;
       renderArticles(savedCity);
     }
 
-    // Rendu des articles
     function renderArticles(city) {
       articlesContainer.innerHTML = "";
       const articles = articlesByCity[city] || [];
       articles.forEach(article => {
-        const card = document.createElement("div");
-        card.className = "article-card";
-        card.innerHTML = `
+        const cardLink = document.createElement("a");
+        cardLink.href = `?article=${encodeURIComponent(article.title)}`;
+        cardLink.className = "article-card";
+        cardLink.innerHTML = `
           <img src="${article.img}" alt="${article.title}">
           <div class="article-content">
             <div class="article-tag">Article</div>
             <h3>${article.title}</h3>
           </div>
         `;
-        articlesContainer.appendChild(card);
+        articlesContainer.appendChild(cardLink);
       });
     }
 
-    // Ouvrir modal
+    function loadArticle() {
+      const params = new URLSearchParams(window.location.search);
+      const articleId = params.get("article");
+      if (articleId && articleContent[articleId]) {
+        heroSection.style.display = "none";
+        articlesSection.style.display = "none";
+        postsSection.style.display = "none";
+        articleContentSection.style.display = "block";
+        articleTitle.textContent = articleContent[articleId].title;
+        articleImage.src = articleContent[articleId].image;
+        articleImage.alt = articleContent[articleId].title;
+        articleText.innerHTML = articleContent[articleId].text;
+      }
+    }
+
     locationBtn.addEventListener("click", () => {
       modal.style.display = "flex";
       citySearch.value = "";
@@ -858,12 +968,10 @@
       });
     });
 
-    // Fermer modal si clic à l’extérieur
     modal.addEventListener("click", (e) => {
       if (e.target === modal) modal.style.display = "none";
     });
 
-    // Choix manuel de ville
     cityList.addEventListener("click", (e) => {
       if (e.target.classList.contains("city")) {
         const city = e.target.textContent;
@@ -872,7 +980,6 @@
       }
     });
 
-    // Recherche
     citySearch.addEventListener("input", () => {
       const term = citySearch.value.toLowerCase();
       [...cityList.children].forEach(city => {
@@ -880,7 +987,6 @@
       });
     });
 
-    // Détection géolocalisation
     function detectLocation() {
       if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(async (pos) => {
@@ -903,7 +1009,6 @@
       }
     }
 
-    // Afficher suggestion
     function showSuggestion(city) {
       suggestionContainer.innerHTML = `
         <div class="suggestion" id="suggested-city">
@@ -916,7 +1021,6 @@
       });
     }
 
-    // Toggle menu
     menuBtn.addEventListener("click", () => {
       menu.classList.toggle("active");
     });
@@ -925,40 +1029,50 @@
       menu.classList.remove("active");
     });
 
-    // Scripts for likes
-    const heart1 = document.getElementById('heart1');
-    const likeCount1 = document.getElementById('like-count1');
-    let liked1 = false;
-    heart1.addEventListener('click', ()=>{
-      liked1 = !liked1;
-      heart1.style.fill = liked1 ? 'red' : '#fff';
-      let count = parseInt(likeCount1.textContent.replace(/\D/g,''),10);
-      likeCount1.textContent = liked1 ? (count+1).toLocaleString('fr-FR') : (count-1).toLocaleString('fr-FR');
-    });
+    // Likes functionality
+    function initializeLikes(postId, heartId, likeCountId, likesDivId) {
+      const heart = document.getElementById(heartId);
+      const likeCount = document.getElementById(likeCountId);
+      const likesDiv = document.getElementById(likesDivId);
 
-    const heart2 = document.getElementById('heart2');
-    const likeCount2 = document.getElementById('like-count2');
-    let liked2 = false;
-    heart2.addEventListener('click', ()=>{
-      liked2 = !liked2;
-      heart2.style.fill = liked2 ? 'red' : '#fff';
-      let count = parseInt(likeCount2.textContent.replace(/\D/g,''),10);
-      likeCount2.textContent = liked2 ? (count+1).toLocaleString('fr-FR') : (count-1).toLocaleString('fr-FR');
-    });
+      // Initialize like count and state from localStorage or set defaults
+      let likeCountValue = parseInt(localStorage.getItem(`likeCount${postId}`)) || Math.floor(Math.random() * 100);
+      let liked = localStorage.getItem(`liked${postId}`) === 'true';
 
-    const heart3 = document.getElementById('heart3');
-    const likeCount3 = document.getElementById('like-count3');
-    let liked3 = false;
-    heart3.addEventListener('click', ()=>{
-      liked3 = !liked3;
-      heart3.style.fill = liked3 ? 'red' : '#fff';
-      let count = parseInt(likeCount3.textContent.replace(/\D/g,''),10);
-      likeCount3.textContent = liked3 ? (count+1).toLocaleString('fr-FR') : (count-1).toLocaleString('fr-FR');
-    });
+      // Set initial state
+      heart.style.fill = liked ? 'red' : '#fff';
+      if (likeCountValue > 0) {
+        likeCount.textContent = likeCountValue.toLocaleString('fr-FR');
+        likesDiv.classList.add('active');
+      } else {
+        likesDiv.classList.remove('active');
+      }
+
+      // Handle click event
+      heart.addEventListener('click', () => {
+        liked = !liked;
+        heart.style.fill = liked ? 'red' : '#fff';
+        likeCountValue = liked ? likeCountValue + 1 : likeCountValue - 1;
+        localStorage.setItem(`liked${postId}`, liked);
+        localStorage.setItem(`likeCount${postId}`, likeCountValue);
+        if (likeCountValue > 0) {
+          likeCount.textContent = likeCountValue.toLocaleString('fr-FR');
+          likesDiv.classList.add('active');
+        } else {
+          likesDiv.classList.remove('active');
+        }
+      });
+    }
+
+    // Initialize likes for each post
+    initializeLikes(1, 'heart1', 'like-count1', 'likes1');
+    initializeLikes(2, 'heart2', 'like-count2', 'likes2');
+    initializeLikes(3, 'heart3', 'like-count3', 'likes3');
 
     // Init
     loadCity();
     detectLocation();
+    loadArticle();
   </script>
 </body>
 </html>
