@@ -1713,6 +1713,11 @@ document.addEventListener("DOMContentLoaded", function() {
           href: "https://matheonyx.github.io/Nesdy/Alien%20%20Earth.html",
           imgSrc: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/150488d8-78ee-4da8-ab83-0a3def4add71/compose?aspectRatio=1.78&format=webp&width=1200"
         },
+        {
+          title: "Les Quatre Fantastiques : Premiers Pas Marvel",
+          href: "https://matheonyx.github.io/Nesdy/les4fantastiques.html",
+          imgSrc: "https://i.ytimg.com/vi/mU8ur1QZYEA/maxresdefault.jpg"
+        },
     
     
     
