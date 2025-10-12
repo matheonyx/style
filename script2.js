@@ -1718,6 +1718,11 @@ document.addEventListener("DOMContentLoaded", function() {
           href: "https://matheonyx.github.io/Nesdy/les4fantastiques.html",
           imgSrc: "https://i.ytimg.com/vi/mU8ur1QZYEA/maxresdefault.jpg"
         },
+        {
+          title: "The Bad Guys 2",
+          href: "https://matheonyx.github.io/Nesdy/bad%20guys%202.html",
+          imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/64c843bc44d1bacf8422d53ad476f6919ff25daced3d2a3d8b31eb9a3a36792c.jpg"
+        },
     
     
     
