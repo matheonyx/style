@@ -1723,6 +1723,11 @@ document.addEventListener("DOMContentLoaded", function() {
           href: "https://matheonyx.github.io/Nesdy/bad%20guys%202.html",
           imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/64c843bc44d1bacf8422d53ad476f6919ff25daced3d2a3d8b31eb9a3a36792c.jpg"
         },
+        {
+          title: "La La Land lalaland Lalaland",
+          href: "https://matheonyx.github.io/Nesdy/La%20La%20Land.html",
+          imgSrc: "https://m.media-amazon.com/images/S/pv-target-images/23bc32973956e69963496cc629c82cf8b80ce791992add57b15c8b864c00d9ae.jpg"
+        },
     
     
     
